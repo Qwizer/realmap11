@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<announce delay="1000" type="event" message="Something bad is happening deep, deep down under Banuta." />
+	<announce delay="540000" type="event" message="Something is sizzling deep under many sheets of soil in Banuta." />
+	<announce delay="780000" type="event" message="Hordes of slippery spawns slither in Deeper Banuta!." />
+	<areaspawn delay="780000" fromx="32774" fromy="32580" fromz="15" tox="32717" toy="32598" toz="15">
+		<monster name="Serpent Spawn" amount="80" />
+	</areaspawn>
+</raid>

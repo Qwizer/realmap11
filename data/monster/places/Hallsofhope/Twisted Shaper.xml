@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Twisted Shaper" nameDescription="a twisted shaper" race="blood" experience="1750" speed="450" manacost="0">
+	<health now="2500" max="2500" />
+	<look type="932" head="68" body="0" legs="0" feet="94" corpse="27736" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="15" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="10" attack="10" />
+		<attack name="physical" interval="2000" chance="10" range="7" min="0" max="-25">
+			<attribute key="shootEffect" value="smallstone" />
+		</attack>
+	</attacks>
+	<defenses armor="10" defense="10" />
+	<elements>
+		<element energyPercent="20" />
+		<element holyPercent="1" />
+		<element earthPercent="-12" />
+		<element deathPercent="-10" />
+	</elements>
+	<voices interval="2000" chance="7">
+		<voice sentence="<grunt>" />
+		<voice sentence="Raar!!" />
+	</voices>
+	<loot>
+		<item id="27052"  chance="20000" /> <!-- ancient belt buckle -->
+		<item id="27058"  chance="5400" /> <!--  ancient coin -->
+		<item id="2789" countmax="3" chance="5000" /> <!-- brown mushrooms -->
+		<item id="27051" countmax="2" chance="20000" /> <!-- cave turnip -->
+		<item id="27053"  chance="17000" /> <!-- cracked alabaster vase -->
+		<item id="2167" chance="7500" /> <!-- energy ring -->
+		<item id="27060" chance="1000" /> <!-- gemmed figurine -->
+		<item id="2148" countmax="175" chance="100000" /> <!-- gold coin -->
+		<item id="7591" chance="7300" /> <!-- great health potion -->
+		<item id="2666" countmax="2" chance="10000" /> <!-- meat -->
+		<item id="24849" chance="5000" /> <!-- onyx chip -->
+		<item id="5022" countmax="5" chance="5300" /> <!-- orichalcum pearl -->
+		<item id="11343" chance="100" /> <!-- piece of marble rock -->
+		<item id="2114" chance="250" /> <!-- piggy bank -->
+		<item id="2171" chance="400" /> <!-- platinum amulet -->
+		<item id="2152" countmax="2" chance="75000" /> <!-- platinun coin -->
+		<item id="2147" chance="5600" /> <!-- small ruby -->
+		<item id="27055" chance="15000" /> <!-- tarnished rhino figurine -->
+		<item id="15649" chance="5000" countmax="4" /> <!-- vortex bolt -->
+		<item id="2189" chance="4000" /> <!-- wand of cosmic energy -->
+	</loot>
+</monster>

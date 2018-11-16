@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<announce delay="1000" type="event" message="Witchs are launching a surprise attack on Thais! Take care, they seem to be everywhere." />
+<announce delay="10000" type="event" message="It seems they are coming accompanied by a malignant force, called Pumpkin . They have invaded the city." />
+
+  <areaspawn delay="11000" fromx="32333" fromy="32182" fromz="7" tox="32424" toy="32256" toz="7"> 
+    <monster name="Witch" amount="105" />
+    <monster name="The Halloween Hare" amount="12" />
+    
+    <monster name="Witch" amount="105" />
+    <monster name="Ghost" amount="20" />
+  </areaspawn>
+
+  <singlespawn delay="11000" name="The Mutated Pumpkin" x="32367" y="32189" z="7" />
+
+  
+  </raid>

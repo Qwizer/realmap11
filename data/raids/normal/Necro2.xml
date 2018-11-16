@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+<announce delay="1000" type="event" message="Necropharus is preparing his troops to start attack!" />
+<announce delay="10000" type="event" message="Necromancers are invading the streets of Carlin!" />
+
+  <areaspawn delay="10000" fromx="32307" fromy="31764" fromz="7" tox="32381" toy="31814" toz="7">
+    <monster name="necromancer" amount="100" />
+	<monster name="necropharus" amount="1" />
+	
+  </areaspawn>
+
+
+
+</raid>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<announce delay="1000" type="event" message="Sightings of undead, west of Darashia! Imminent invasion is suspected!" />
+	<areaspawn delay="1000" fromx="33270" fromy="32453" fromz="10" tox="33272" toy="32494" toz="10">
+	    <monster name="Necromancer" amount="6" />
+	</areaspawn>
+	<announce delay="300000" type="event" message="How terrible! Liches have risen from their graves in the Darashian crypts!" />
+	<singlespawn delay="300000" name="Lich" x="33249" y="32486" z="11" />
+	<singlespawn delay="300000" name="Lich" x="33290" y="32486" z="11" />
+	<singlespawn delay="300000" name="Lich" x="33296" y="32473" z="11" />
+	<singlespawn delay="300000" name="Lich" x="33247" y="32473" z="11" />
+</raid>

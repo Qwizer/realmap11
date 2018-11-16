@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="The Last Lore Keeper" nameDescription="The Last Lore Keeper" race="undead" experience="45000" speed="400" manacost="0">
+	<health now="55000" max="55000" />
+	<look type="939" head="0" body="98" legs="86" feet="94" corpse="6068" />
+	<targetchange interval="10000" chance="20" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="98" />
+		<flag targetdistance="1" />
+		<flag runonhealth="0" />
+		
+	</flags>
+
+	<attacks>
+		<attack name="melee" interval="2000"  min="-999" max="-1000"/>
+		
+		<attack name="poison" interval="1000" chance="12" radius="7" target="0" min="-600" max="-900">
+			<attribute key="areaEffect" value="poison" />
+		</attack>
+		<attack name="poisonfield" interval="2000" chance="10" range="7" radius="4" target="1">
+			<attribute key="shootEffect" value="earth" />
+		</attack>
+
+
+		<attack name="energy" interval="3000" chance="35" range="7" radius="7" target="1" min="0" max="-1600">
+			<attribute key="areaEffect" value="energy" />
+		</attack>
+		<attack name="energyfield" interval="2000" chance="10" range="7" radius="4" target="1">
+			<attribute key="shootEffect" value="energy" />
+		</attack>
+	
+	</attacks>
+	<defenses armor="55" defense="65">
+	<defense name="healing" interval="2000" chance="35" min="300" max="800"/>
+			
+	</defenses>
+	<elements>
+		<element icePercent="35" />
+		<element energyPercent="15" />
+		<element earthPercent="20" />
+		<element holyPercent="30" />
+		<element deathPercent="30" />
+		<element firePercent="15" />
+		<element physicalPercent="25" />
+		<element deathPercent="60" />
+	</elements>
+	<summons maxSummons="5">
+		<summon name="Sword Of Vengeance" interval="3000" chance="100" />
+		<summon name="Sword Of Vengeance" interval="7000" chance="100" />
+	</summons>
+	
+	<voices interval="5000" chance="30">
+		<voice sentence="This place is sacred!" yell="1" />
+	</voices>
+	<loot>
+		<item id="2148" chance="97000" countmax="200" /><!-- Gold Coin -->
+		<item id="2152" chance="87445" countmax="35" /><!-- platinum coin -->
+		<item id="18413" countmax="3" chance="78326" /><!-- blue crystal shard -->
+		<item id="18414" countmax="3" chance="87452" /><!-- green crystal shard-->
+	    <item id="2149" countmax="20" chance="75565" /><!-- small emerald -->
+		<item id="5944" countmax="2" chance="64484" /><!-- small emerald -->	
+	    <item id="25377" countmax="3" chance="68744" /><!--     Gold Token -->
+		<item id="25172" countmax="3" chance="65754" /><!--     silver Token -->
+		<item id="8472" chance="45645" countmax="10" /><!-- great spirit potion -->
+        <item id="26031" chance="68745" countmax="5" /><!-- supreme health potion -->
+		<item id="8473" chance="54684" countmax="5" /><!-- ultimate health potion -->
+        <item id="5880" chance="45673" countmax="5" /><!-- iron ore -->
+		<item id="8472" countmax="3" chance="48668" /><!-- great spirit potion -->	
+		<item id="5999" countmax="4" chance="45687" /><!--  White Piece of Cloths -->
+		<item id="10549" chance="64687" /><!-- ancient stone -->
+		<item id="2158" chance="54678" /><!-- blue gem -->
+		<item id="26163" chance="75562" /><!-- crystallized anger -->
+		<item id="22413" chance="46864" /><!-- crude umbral hammer -->
+		<item id="26164" chance="64845" /><!-- energy vein -->
+		<item id="7632" chance="46665" /><!-- Giant Shimmering Pearl -->
+		<item id="2466" chance="35456" /><!-- golden armor -->
+		<item id="10577" chance="65486" /><!-- Mystical Hourglass -->
+		<item id="24849" chance="76843" /><!-- Onyx Chip -->
+		<item id="27610" chance="84534" /><!--  Part of a Rune -->
+		<item id="5887" chance="46871" /><!--  Piece of Royal Steel -->
+		<item id="26190" chance="65745" /><!--  Ring of Red Plasma -->
+		<item id="7451" chance="64856" /><!-- Shadow sceptre -->
+		<item id="8857" chance="64875" /><!-- silweaver bow -->
+		<item id="2436" chance="76841" /><!--   Skull Staff -->
+		<item id="8879" chance="64132" /><!--  Voltage armor -->
+		<item id="2079" chance="35647" /><!--  Voltage armor -->
+		<item id="26893" chance="5612" /><!--  Astral Glyph -->
+		<item id="27643" chance="3648" /><!--  Astral source -->
+		<item id="27639" chance="6543" /><!--  forbidden tome -->
+		<item id="27640" chance="6578" /><!--  key to knowledge -->
+		<item id="7450" chance="1325" /><!--  hammer of prophecy -->
+		<item id="2154" chance="35145" /><!-- yellow Gem -->
+	</loot>
+</monster>

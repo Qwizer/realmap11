@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<announce delay="1000" type="event" message="Mutated Visco with their exercit of vampires are preparing an attack on desert of Ankrahmun." />
+<announce delay="100000" type="event" message="Vampires have invaded north of desert Ankrahmun." />
+
+  <areaspawn delay="100000" fromx="33124" fromy="32707" fromz="7" tox="33204" toy="32759" toz="7">
+    <monster name="Vampire" amount="50" />
+    <monster name="Vampire Bride" amount="20" />   
+   <monster name="Mutated Visco" amount="1" />   
+  </areaspawn>
+
+  </raid>
+  

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="The Time Guardian" nameDescription="The Time Guardian" race="undead" experience="45000" speed="590" manacost="290">
+<health now="35000" max="35000" />
+<look type="945" />
+<targetchange interval="5000" chance="0" />
+<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="98" />
+		<flag targetdistance="1" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="100" chance="80" skill="153"  min="-500" max="-1000"/>	
+	</attacks>
+	<attack name="energy" interval="200" chance="100" range="7" radius="1" target="1" min="-500" max="-900" >
+		<attribute key="shootEffect" value="energy" />
+	</attack>
+	<attack name="fire" interval="100" chance="44" range="7" radius="7" target="1" min="-200" max="-800">
+		<attribute key="shootEffect" value="fire" />
+		<attribute key="areaEffect" value="firearea" />
+    </attack>
+	<defenses armor="10" defense="10" />
+	<immunities>
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
+	</immunities>
+	<elements>
+		<element physicalPercent="80" />
+		<element deathPercent="70" />
+		<element energyPercent="80" />
+		<element holyPercent="80" />
+		<element firePercent="80" />
+		<element earthPercent="80" />
+		<element icePercent="70" />
+	</elements>
+	<voices interval="2000" chance="7">
+		<voice sentence="This place is sacred!" />
+	</voices>
+</monster>

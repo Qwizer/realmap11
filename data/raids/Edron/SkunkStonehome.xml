@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	 <areaspawn delay="1000" fromx="33291" fromy="31758" fromz="7" tox="33325" toy="31771" toz="7">
+	    <monster name="Skunk" amount="15" />
+	 </areaspawn>
+</raid>

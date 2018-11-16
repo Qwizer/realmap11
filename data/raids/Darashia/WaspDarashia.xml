@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	 <!--Announcements-->
+	<areaspawn delay="1000" fromx="33245" fromy="32375" fromz="7" tox="33259" toy="32385" toz="7">
+		<monster name="Wasp" amount="15" />
+	</areaspawn>
+</raid>

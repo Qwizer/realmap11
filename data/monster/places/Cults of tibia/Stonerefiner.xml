@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Stonerefiner" nameDescription="a Stonerefiner" race="blood" experience="500" speed="250" manacost="0">
+	<health now="800" max="800" />
+	<look type="1053" corpse="8721" />
+	<targetchange interval="2000" chance="11" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+				<flag isblockable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="4" />
+		<flag staticattack="90" />
+		<flag runonhealth="240" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="50" attack="50" />
+		<attack name="manadrain" interval="2000" chance="10" length="8" spread="0" min="-50" max="-200">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="16" radius="4" target="0" min="-50" max="-150">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="physical" interval="2000" chance="22" range="7" min="-0" max="-150">
+			<attribute key="shootEffect" value="huntingspear" />
+			<attribute key="areaEffect" value="explosionarea" />
+		</attack>
+		<attack name="bleedcondition" interval="2000" chance="40" target="1" radius="4" min="-100" max="-150">
+			<attribute key="shootEffect" value="throwingknife" />
+			<attribute key="areaEffect" value="redspark" />
+		</attack>
+		<attack name="minotaur amazon paralyze" interval="2000" chance="15" />
+	</attacks>
+	<defenses armor="35" defense="35" />
+	<elements>
+		<element energyPercent="-10" />
+		<element firePercent="-5" />
+		<element icePercent="5" />
+		<element deathPercent="10" />
+		<element holyPercent="10" />
+	</elements>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="2000" chance="5">
+		<voice sentence="I'll protect the herd!" />
+		<voice sentence="Never surrender!" />
+		<voice sentence="You won't hurt us!" />
+		<voice sentence="I will not allow your evil to continue!" />
+	</voices>
+	<loot>
+		<item id="2671" countmax="1" chance="60780" />		<!-- ham -->
+		<item id="2666" countmax="1" chance="4920" />		<!-- meat -->
+	</loot>
+</monster>

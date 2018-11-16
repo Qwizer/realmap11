@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Soul of Dragonking Zyrtarch" nameDescription="a Soul of Dragonking Zyrtarch" race="blood" experience="70780" speed="500" manacost="290">
+	<health now="65000" max="65000" />
+	<look type="938" corpse="27721" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="15" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="100" attack="300" />
+		<attack name="Poison Bomb" interval="5000"  range="7" min="-400" max="-800"/>
+
+	</attacks>
+	<defenses armor="10" defense="10" />
+	<elements>
+		<element energyPercent="20" />
+		<element holyPercent="1" />
+		<element earthPercent="-12" />
+		<element deathPercent="-10" />
+	</elements>
+	<voices interval="2000" chance="7">
+		<voice sentence="What have you done?!" />
+	</voices>
+	<immunities>
+		<immunity drown="1" />
+		<immunity lifedrain="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+		<immunity fire="1" />
+		
+		
+	</immunities>
+	<loot>
+	    <item id="2148" countmax="200" chance="97000" /><!-- gold coin -->
+		<item id="2152" countmax="25" chance="90000" /><!-- platinum coin -->
+		<item id="7590" countmax="10" chance="65478" /><!-- great mana potion -->
+		<item id="8473" countmax="10" chance="78946" /><!-- ultimate health potion -->		
+		<item id="8472" countmax="10" chance="67842" /><!-- great spirit potion -->	
+		<item id="2145" countmax="10" chance="77498" /><!-- small diamond -->
+		<item id="2149" countmax="10" chance="64050" /><!-- small emerald -->
+		<item id="2147" countmax="10" chance="45750" /><!-- small ruby -->
+		<item id="9970" countmax="10" chance="87952" /><!-- small topaz -->
+		<item id="18413" countmax="3" chance="78543" /><!-- blue crystal shard -->
+		<item id="18414" countmax="3" chance="87546" /><!-- green crystal shard-->
+		<item id="18415" countmax="3" chance="65456" /><!-- violet crystal shard -->
+		<item id="7632" chance="43454 " /><!-- Giant Shimmering Pearl -->
+		<item id="9971" chance="29707 " /><!-- gold ingot -->
+		<item id="2158" chance="58212" /><!-- Blue Gem -->
+		<item id="2155" chance="64855" /><!-- Green Gem -->
+		<item id="12608" chance="64855" /><!-- broken key ring -->
+		<item id="2156" chance="57966" /><!-- red Gem -->
+		<item id="2154" chance="76762" /><!-- yellow Gem -->
+		<item id="9980" chance="56451" /><!-- crystal of power -->
+		<item id="5904" chance="100000" /><!--  Magic Sulphur -->
+		<item id="27624" chance="3546" /><!--   Golden Talon -->
+		<item id="27635" chance="3472" /><!--   dragon crown -->
+		<item id="27606" chance="54620" /><!--   dragon tongue -->
+		<item id="7430" chance="42573" /><!--   dragonbone staff -->
+		<item id="11305" chance="49242 " /><!--   drakinata -->
+		<item id="8849" chance="40078 " /><!--   Modified Crossbow -->
+		<item id="27611" chance="5914" /><!--   Part of a Rune(segunda) -->
+		<item id="5889" chance="100000" /><!--    Piece of Draconian Steel -->
+		<item id="5882" chance="5000" /><!--     Red Dragon Scale -->
+		<item id="5887" chance="35177" /><!--     Piece of Royal Steel -->
+		<item id="5948" chance="62629 " /><!--      Red Dragon Leather-->
+		<item id="9808" chance="100000" /><!--       Rusty Armor-->
+		<item id="8902" chance="73405" /><!--        Spellbook of Mind Control-->
+		<item id="12644" chance="1507" /><!--        Shield of Corruption-->
+		<item id="11308" chance="5603" /><!--        Drachaku-->
+		<item id="2506" chance="1191" /><!--        Dragon Scale Helmet-->
+		<item id="2522" chance="961" /><!--        Great Shield-->
+		<item id="12648" chance="1956" /><!--         Snake God's Sceptre-->
+		<item id="25377" chance="14240" /><!--     Gold Token -->
+		<item id="25172" chance="18952" /><!--     silver token -->
+	</loot>
+	
+</monster>

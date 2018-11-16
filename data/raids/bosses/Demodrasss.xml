@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+    <!--
+	// Raid System by 5mok3
+	// DO NOT CHANGE INTERVAL UNLESS YOU ARE SURE WHAT YOU ARE DOING!!
+	-->
+
+  <!--Single Spawns-->
+  <areaspawn delay="11000" fromx="32341" fromy="32083" fromz="10" tox="32364" toy="32098" toz="10">
+    <monster name="Dragon Lord" amount="10" />
+	<monster name="Demodras" amount="1" />   
+  </areaspawn>
+   
+</raid>

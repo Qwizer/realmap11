@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gelidrazah the Frozen" nameDescription="Gelidrazah the Frozen" race="blood" experience="9000" speed="500" manacost="290">
+	<health now="10000" max="10000" />
+	<!-- Need to fix looktype -->
+	<look type="947" head="30" body="30" legs="38" feet="38" addons="3" corpse="27721" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="10" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="100" attack="400" />
+		<attack name="Poison Bomb" interval="5000"  range="7" min="-400" max="-800"/>
+
+	</attacks>
+	<defenses armor="10" defense="10" />
+	<elements>
+		<element deathPercent="-10" />
+	</elements>
+	<immunities>
+		<immunity drown="1" />
+		<immunity lifedrain="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+		<immunity ice="1" />
+		<immunity earth="1" />
+		<immunity holy="1" />
+		
+		
+	</immunities>
+	<loot>
+	    <item id="2148" countmax="129" chance="89240" /><!-- gold coin -->
+		<item id="2152" countmax="3" chance="66500" /><!-- platinum coin -->
+		<item id="27605" countmax="3" chance="100000" /><!-- dragon blood -->
+		<item id="27606" countmax="3" chance="100000" /><!-- dragon tongue -->		
+		<item id="27607" countmax="1" chance="100000" /><!-- Scale of Gelidrazah -->	
+		<item id="2675" countmax="5" chance="81010" /><!-- dragon ham -->
+		<item id="7290" countmax="1" chance="33000" /><!-- shard -->
+		<item id="7888" countmax="1" chance="26600" /><!-- glacier amulet -->
+		<item id="7902" countmax="1" chance="12000" /><!-- glacier mask	-->
+		<item id="2146" countmax="1" chance="12000" /><!-- small sapphire -->
+		<item id="21696" countmax="1" chance="7000" /><!-- icicle bow -->
+		<item id="21697" countmax="1" chance="7000" /><!-- runic ice shield -->
+		<item id="7441" countmax="1" chance="6330" /><!-- ice cube-->
+		<item id="2167" countmax="1" chance="5700" /><!-- energy ring -->
+		<item id="18412" chance="4000" /><!-- Glacial Rod -->
+		<item id="2033" chance="3000" /><!-- golden mug -->
+		<item id="8887" chance="1270" /><!-- frozen plate -->
+		<item id="7409" chance="1270" /><!-- northern star -->
+	
+	</loot>
+	
+</monster>

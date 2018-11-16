@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<announce delay="1000" type="event" message="Elfs with their well-aimed aiming arches are preparing an attack on Rookgaard." />
+<announce delay="10000" type="event" message="Elfs have invaded the city of Rookgaard." />
+
+  <areaspawn delay="11000" fromx="32068" fromy="32190" fromz="7" tox="32112" toy="32227" toz="7">
+    <monster name="Elf" amount="30" />
+   
+  </areaspawn>
+
+  </raid>

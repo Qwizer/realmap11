@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<announce delay="1000" type="event" message="Something is moving in the west of desert darashia." />
+<announce delay="20000" type="event" message="Numerous Witchs fins have been sighted in the desert around Darashia." />
+<announce delay="60000" type="event" message="Mutated Pumpkin emerged from the hell to attack Darashia." />
+
+  <areaspawn delay="60000" fromx="33128" fromy="32378" fromz="7" tox="33179" toy="32449" toz="7">
+    <monster name="Witch" amount="32" />
+    <monster name="Ghost" amount="12" />
+    <monster name="Ghoul" amount="22" />
+    
+    <monster name="The Mutated Pumpkin" amount="1" />
+  </areaspawn>
+
+
+
+
+</raid>

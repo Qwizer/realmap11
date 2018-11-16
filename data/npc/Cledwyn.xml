@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Cledwyn" script="Cledwyn.lua" walkinterval="2000" floorchange="0">
+          <health now="150" max="150" />
+          <look type="128" head="114" body="0" legs="76" feet="94" addons="3" />
+          <parameters>
+                    <parameter key="message_greet" value="Hello |PLAYERNAME|. Do not want to make an exchange? I have {Earthheart Cuirass}, {Earthheart Platemail}, {Earthmind Raiment}, {Earthsoul Tabard}, {Fireheart Cuirass}, {Fireheart Hauberk}, {Fireheart Platemail}, {Firemind Raiment}, {Firesoul Tabard}, {Frostheart Cuirass}, {Frostheart Hauberk}, {Frostheart Platemail}, {Frostsoul Tabard}, {Thundersoul Tabard}, {Thundermind Raiment}, {Thunderheart Platemail}, {Thunderheart Hauberk}, {Thunderheart Cuirass} and {Frostmind Raiment}." />
+                    <parameter key="message_farewell" value="Bye bye!" />
+          </parameters>
+</npc>

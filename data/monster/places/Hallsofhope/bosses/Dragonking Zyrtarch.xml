@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dragonking Zyrtarch" nameDescription="a Dragonking Zyrtarch" race="blood" experience="1600" speed="550" manacost="290">
+	<health now="10000" max="10000" />
+	<look type="938" corpse="27733" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="0" />
+		<flag rewardboss="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="15" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="10" attack="100" />
+		<attack name="Poison Bomb" interval="5000"  range="7" min="-100" max="-400"/>
+		<attack name="fire" interval="2000" chance="15" length="8" spread="3" min="-400" max="-630">
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+	</attacks>
+	<defenses armor="10" defense="10" />
+	<elements>
+		<element energyPercent="20" />
+		<element holyPercent="1" />
+		<element earthPercent="-12" />
+		<element deathPercent="-10" />
+	</elements>
+	<voices interval="2000" chance="7">
+		<voice sentence="Feel my wrath, infidels!" />
+	</voices>
+	<immunities>
+		<immunity fire="1" />
+		<immunity drown="1" />
+		<immunity lifedrain="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+		<immunity energy="1" />
+		<immunity ice="1" />
+		<immunity earth="1" />
+		<immunity death="1" />
+		<immunity holy="1" />
+		<immunity physical="1" />
+	</immunities>
+	<loot>
+		<item id="2148" countmax="100" chance="100000" /><!-- gold coin -->
+		<item id="2148" countmax="11" chance="100000" /><!-- gold coin -->
+		<item id="18413" chance="14111" /><!-- blue crystal shard -->
+		<item id="18414" chance="5100" /><!-- violet crystal shard -->
+		<item id="2146" chance="5600" /><!-- small sapphire -->
+		<item id="7588" chance="2444" /><!-- strong health potion -->
+		<item id="7589" chance="3044" /><!-- strong mana potion -->
+		<item id="2396" chance="320" /><!-- ice rapier -->
+		<item id="25172" chance="210" /><!-- silver token -->
+		<item id="25377" chance="210" /><!-- gold token -->
+		<item id="12648" chance="210" /><!-- snake god's sceptre -->
+		<item id="2522" chance="210" /><!-- great shield -->
+		<item id="2506" chance="210" /><!-- dragon scale helmet -->
+		<item id="12644" chance="210" /><!-- Shield of Corruption -->
+		<item id="8849" chance="500" /><!-- Modified Crossbow -->
+		<item id="11308" chance="210" /><!-- drachaku -->
+		<item id="8902" chance="210" /><!-- spellbook of mind control -->
+		<item id="9971" chance="10000" /><!-- gold ingot -->
+		<item id="7430" chance="210" /><!-- dragonbone staff -->
+		<item id="2158" chance="10000" /><!-- blue gem -->
+		<item id="5904" chance="10000" /><!-- magic sulphur -->
+	</loot>
+</monster>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Soul of Dragonking Zyrtarch" nameDescription="the Soul of Dragonking Zyrtarch" race="undead" experience="75780" speed="700" manacost="290">
+	<health now="80000" max="80000" />
+	<look type="938" corpse="27733" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag rewardboss="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="15" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-300" max="-1200" />
+		<attack name="Poison Bomb" interval="5000"  range="7" min="-200" max="-800"/>
+		<attack name="fire" interval="2000" chance="15" length="8" spread="3" min="-400" max="-630">
+			<attribute key="areaEffect" value="explosion" />
+		</attack>
+	</attacks>
+	<defenses armor="10" defense="10" />
+	<elements>
+		<element energyPercent="-15" />
+		<element firePercent="100" />
+		<element earthPercent="100" />
+	</elements>
+	<voices interval="2000" chance="7">
+		<voice sentence="What have you done?!" />
+	</voices>
+	<immunities>
+		<immunity drown="1" />
+		<immunity lifedrain="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+		<immunity earth="1" />
+	</immunities>
+	<loot>
+		<item id="25377" chance="4200" /> <!-- gold token -->
+		<item id="25172" chance="8000" /> <!-- silver token -->
+	    <item id="2148" countmax="100" chance="10000" /><!-- gold coin -->
+		<item id="2148" countmax="100" chance="10000" /><!-- gold coin -->
+		<item id="2152" countmax="25" chance="9000" /><!-- platinum coin -->
+		<item id="2150" countmax="11" chance="10000" /> <!-- small sapphire -->
+		<item id="2145" countmax="12" chance="10000" /> <!-- small diamond -->
+		<item id="2147" countmax="15" chance="10000" /> <!-- small ruby -->
+		<item id="9970" countmax="8" chance="10000" /> <!-- small topaz -->
+		<item id="18413" countmax="3" chance="14111" /><!-- blue crystal shard -->
+		<item id="18415" countmax="3" chance="5100" /><!-- green crystal shard -->
+		<item id="8472" countmax="10" chance="8444" /><!-- great spirit potion -->
+		<item id="7590" countmax="10" chance="8044" /><!-- great mana potion -->
+		<item id="8473" countmax="10" chance="8044" /><!-- uhp -->
+		<item id="2158" chance="10000" /><!-- blue gem -->
+		<item id="2396" chance="320" /><!-- ice rapier -->
+		<item id="27636" chance="1010" /><!-- gold talon -->
+		<item id="5887" chance="5909" /><!--  Piece of Royal Steel -->
+		<item id="5889" chance="50909" /><!--  Piece of Draconian Steel -->
+		<item id="12648" chance="210" /><!-- snake god's sceptre -->
+		<item id="2522" chance="110" /><!-- great shield -->
+		<item id="2506" chance="110" /><!-- dragon scale helmet -->
+		<item id="12644" chance="410" /><!-- Shield of Corruption -->
+		<item id="8849" chance="500" /><!-- Modified Crossbow -->
+		<item id="11308" chance="210" /><!-- drachaku -->
+		<item id="8902" chance="4010" /><!-- spellbook of mind control -->
+		<item id="9971" chance="10000" /><!-- gold ingot -->
+		<item id="7430" chance="2010" /><!-- dragonbone staff -->	
+		<item id="5904" chance="10000" /><!-- magic sulphur -->
+	</loot>
+</monster>

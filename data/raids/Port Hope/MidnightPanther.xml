@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<announce delay="1000" type="event" message="A midnight panther invaded forest port hope." />
+	<singlespawn delay="1000" name="Midnight Panther" x="32848" y="32698" z="7" />
+	<singlespawn delay="1000" name="Midnight Panther" x="32887" y="32730" z="7" />
+	<singlespawn delay="1000" name="Midnight Panther" x="32866" y="32749" z="7" />
+</raid>

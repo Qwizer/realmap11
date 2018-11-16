@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kalyassa" nameDescription="Kalyassa" race="blood" experience="9000" speed="380" manacost="290">
+	<health now="10000" max="10000" />
+	<look type="947" addons="3" head="0" body="113" legs="76" feet="114" corpse="27863" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="15" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-580" />
+		<attack name="fire" interval="2000" chance="20" range="7" radius="4" target="1" min="-200" max="-550">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+		<attack name="fire" interval="2000" chance="15" length="8" spread="3" min="-250" max="-330">
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="10" target="0" length="8" spread="3" min="-215" max="-380">
+			<attribute key="areaEffect" value="poff" />
+		</attack>
+		<attack name="fire" interval="2000" chance="10" target="0" length="8" spread="3" min="-115" max="-480">
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+		<attack name="speed" interval="2000" chance="20" target="1" radius="4" speedchange="-400" duration="8000">
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="35">
+		<defense name="healing" interval="2000" chance="15" min="100" max="450">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="40" />
+	</elements>
+	<immunities>
+		<immunity fire="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<summons maxSummons="3">
+		<summon name="dragon lord" interval="2000" chance="40" />
+	</summons>
+	<loot>
+		<item id="2152" countmax="9" chance="20320" /><!-- platinum coin -->
+		<item name="dragon blood" countmax="2" chance="37030" />
+		<item name="dragon tongue" chance="37030" />
+		<item name="dragon ham" countmax="9" chance="20320" />
+		<item name="great health potion" countmax="2" chance="10320" />
+		<item name="great mana potion" countmax="3" chance="10320" />
+		<item name="onyx arrow" countmax="13" chance="10320" />
+		<item name="dragon scale mail" chance="9320" />
+		<item name="fire sword" chance="12320" />
+		<item name="power bolt" countmax="33" chance="12320" />
+		<item name="red dragon leather" countmax="3" chance="8320" />
+		<item name="royal helmet" chance="7030" />
+		<item name="dragon scale boots" chance="1030" />
+		<item id="5791" chance="2000" />
+		<item id="27609" chance="107030" />
+	</loot>
+</monster>

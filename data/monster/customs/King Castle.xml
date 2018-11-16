@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="King Castle" nameDescription="a King Castle" race="undead" experience="0" speed="0" manacost="0">
+  <health now="50" max="500000"/>
+	<look typeex="27595"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+  <attacks>
+  </attacks>
+  <defenses armor="100" defense="100"/>
+  <elements>
+	<element icePercent="50"/>
+	<element firePercent="50"/>
+	<element holyPercent="50"/>
+	<element deathPercent="50"/>
+	<element physicalPercent="-50"/>
+  </elements>
+  <immunities>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+  </voices>
+  <loot>
+  </loot>
+  
+	<script>
+		<event name="DeathKing"/>
+	</script>
+</monster>

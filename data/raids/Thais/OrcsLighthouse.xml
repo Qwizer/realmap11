@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<areaspawn delay="1000" fromx="32225" fromy="32280" fromz="7" tox="32243" toy="32290" toz="7">
+		<monster name="Orc" amount="15" />
+		<monster name="Orc Berserker" amount="3" />
+		<monster name="Orc Shaman" amount="2" />
+		<monster name="Orc Leader" amount="1" />
+		<monster name="Orc Warlord" amount="2" />
+	</areaspawn>
+</raid>

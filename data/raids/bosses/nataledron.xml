@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<announce delay="1000" type="event" message="The christmas goblins are preparing to attack Edron!" />
+
+<announce delay="60000" type="event" message="The Christmas Goblin came out of their burrows to attack Edron." />
+
+  <areaspawn delay="60000" fromx="33192" fromy="31791" fromz="7" tox="33229" toy="31888" toz="7">
+    <monster name="Christmas Goblin" amount="100" />
+   
+  </areaspawn>
+
+
+
+
+</raid>

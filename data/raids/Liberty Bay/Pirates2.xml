@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<announce delay="1000" type="event" message="Sails sighted northwest of Liberty Bay." />
+	<announce delay="300000" type="event" message="Pirates are attacking the plantations of Liberty Bay." />
+	<areaspawn delay="300000" fromx="32193" fromy="32822" fromz="7" tox="32231" toy="32855" toz="7">
+		<monster name="Pirate Corsair" amount="5" />
+		<monster name="Pirate Buccaneer" amount="8" />
+		<monster name="Pirate Cutthroat" amount="12" />
+		<monster name="Pirate Marauder" amount="20" />
+		<monster name="Smuggler" amount="25" />
+	</areaspawn>
+</raid>

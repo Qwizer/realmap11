@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<announce delay="1000" type="event" message="There are some kongras congregating south of Banuta." />
+	<announce delay="300000" type="event" message="More furry primates in Banuta." />
+	<areaspawn delay="300000" fromx="32766" fromy="32593" fromz="7" tox="32818" toy="32622" toz="7">
+		<monster name="Kongra" amount="30" />
+	</areaspawn>
+	<announce delay="900000" type="event" message="More ape and fur flurry south of Banuta!" />
+	<areaspawn delay="900000" fromx="32766" fromy="32593" fromz="7" tox="32818" toy="32622" toz="7">
+		<monster name="Kongra" amount="60" />
+	</areaspawn>
+</raid>

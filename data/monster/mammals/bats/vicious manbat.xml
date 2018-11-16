@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Vicious Manbat" nameDescription="a vicious manbat" race="blood" experience="1200" speed="220" manacost="0">
+	<health now="1700" max="1700" />
+	<look type="556" corpse="21266" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="70" />
+		<flag runonhealth="0" />
+		<flag isblockable="1" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="52" attack="71" />
+		<attack name="manadrain" interval="2000" chance="15" range="7" min="0" max="-105" />
+		<attack name="physical" interval="2000" chance="15" radius="3" target="0" min="0" max="-50">
+			<attribute key="areaEffect" value="redspark" />
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="30">
+		<defense name="invisible" interval="2000" chance="15" duration="2000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="10" />
+		<element energyPercent="10" />
+		<element icePercent="5" />
+		<element firePercent="-10" />
+		<element holyPercent="-10" />
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
+		<immunity death="1" />
+		<immunity earth="1" />
+	</immunities>
+	<loot>
+		<item id="2148" countmax="159" chance="100000" />	<!-- gold coin -->
+		<item id="7589" chance="15870" /><!-- Strong Mana Potion -->
+		<item id="7588" chance="7940" /><!-- Strong Health Potion -->
+		<item id="10602" chance="7940" /><!-- Vampire Teeth -->
+		<item id="12405" chance="6350" /><!-- Blood Preservation -->
+		<item id="21241" chance="3170" /><!-- tooth file -->
+		<item id="2147" chance="3170" /><!-- Small Ruby -->
+		<item id="2156" chance="1590" /><!-- Red Gem -->	
+	</loot>
+</monster>

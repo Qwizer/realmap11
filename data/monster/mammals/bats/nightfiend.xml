@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Nightfiend" nameDescription="a nightfiend" race="blood" experience="2100" speed="210" manacost="0">
+	<health now="2700" max="2700" />
+	<look type="556" corpse="21453" />
+	<targetchange interval="5000" chance="8" /> 
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="0" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag isblockable="1" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="60" attack="80" />
+		<attack name="manadrain" interval="2000" chance="10" range="7" min="0" max="-105" />
+		<attack name="death" interval="2000" chance="15" radius="3" range="6" target="1" min="0" max="-220">
+			<attribute key="shootEffect" value="death" />
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+		<attack name="bleedcondition" interval="2000" chance="10" range="5" target="1" min="-140" max="-280">
+			<attribute key="areaEffect" value="bats" />
+		</attack>
+		<attack name="speed" interval="4000" chance="10" radius="1" target="1" speedchange="-200">
+			<attribute key="areaEffect" value="poff" />
+		</attack>
+	</attacks>
+	<defenses armor="20" defense="20">
+		<defense name="invisible" interval="2000" chance="15" duration="2000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="10" />
+		<element energyPercent="10" />
+		<element icePercent="5" />
+		<element firePercent="-10" />
+		<element holyPercent="-10" />
+	</elements>
+	<immunities>
+		<immunity death="1" />
+		<immunity earth="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<loot>
+		<item id="2148" countmax="143" chance="97890" /><!-- gold coin -->
+        <item id="2152" chance="41620" /><!-- platinum coin -->
+		<item id="7589" chance="10710" /><!-- Strong Mana Potion -->
+		<item id="10602" chance="9090" /><!-- Vampire Teeth -->
+		<item id="21241" chance="7880" /><!-- Tooth File -->
+		<item id="2147" countmax="3" chance="6870" /><!-- Small Ruby -->
+		<item id="12405" chance="3030" /><!-- Blood Preservation -->
+		<item id="2214" chance="2630" /><!-- ring of healing -->
+		<item id="2127" chance="1820" /><!-- Emerald Bangle -->
+		<item id="2534" chance="610" /><!-- Vampire Shield -->	
+		<item id="2156" chance="400" /><!-- Red Gem -->	
+	</loot>
+</monster>

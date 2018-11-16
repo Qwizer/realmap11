@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elder Bonelord" nameDescription="an elder bonelord" race="blood" experience="280" speed="170" manacost="0">
+	<health now="500" max="500" />
+	<look type="108" corpse="6037" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="4" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag isblockable="1" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="10" attack="55" />
+		<attack name="energy" interval="2000" chance="5" range="7" min="-45" max="-60">
+			<attribute key="shootEffect" value="energy" />
+		</attack>
+		<attack name="fire" interval="2000" chance="5" range="7" min="-40" max="-80">
+			<attribute key="shootEffect" value="fire" />
+		</attack>
+		<attack name="death" interval="2000" chance="10" range="7" min="-45" max="-90">
+			<attribute key="shootEffect" value="suddendeath" />
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+		<attack name="poison" interval="2000" chance="10" range="7" min="-20" max="-40">
+			<attribute key="shootEffect" value="poison" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="5" range="7" min="-45" max="-85">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="manadrain" interval="2000" chance="5" range="7" min="0" max="-40" />
+		<attack name="speed" interval="2000" chance="10" range="7" speedchange="-600" duration="20000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+	</attacks>
+	<defenses armor="13" defense="13" />
+	<elements>
+		<element energyPercent="20" />
+		<element icePercent="30" />
+		<element deathPercent="30" />
+		<element firePercent="-10" />
+	</elements>
+	<immunities>
+		<immunity earth="1" />
+		<immunity lifedrain="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<summons maxSummons="6">
+		<summon name="Gazer" interval="2000" chance="10" />
+		<summon name="Crypt Shambler" interval="2000" chance="15" />
+	</summons>
+	<voices interval="2000" chance="7">
+		<voice sentence="Let me take a look at you!" />
+		<voice sentence="Inferior creatures, bow before my power!" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="86" chance="99560" /><!-- gold coin -->
+		<item id="11193" chance="22270" /><!-- elder bonelord tentacle -->
+		<item id="7364" countmax="43" chance="9970" /><!-- sniper arrow -->
+		<item id="12468" chance="9280" /><!-- small flask of eyedrops -->
+		<item id="2377" chance="2960" /><!-- two handed sword -->
+		<item id="5898" chance="2110" /><!-- bonelord eye -->
+		<item id="2509" chance="1800" /><!-- steel shield -->
+		<item id="7589" chance="1020" /><!-- strong mana potion -->
+		<item id="2175" chance="820" /><!-- spellbook -->
+		<item id="11197" chance="540" /><!-- giant eye -->
+		<item id="3972" chance="70" /><!-- beholder helmet -->
+		<item id="2518" chance="30" /><!-- beholder shield -->
+	</loot>
+</monster>

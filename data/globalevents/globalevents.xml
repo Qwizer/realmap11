@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+	<!-- Bosses Quests -->
+    <globalevent name="Obujos" time="17:59:00" script="bosses/Obujos.lua"/>
+    <globalevent name="Tanjis" time="14:59:00" script="bosses/Tanjis.lua"/>
+    <globalevent name="Jaul" time="06:59:00" script="bosses/Jaul.lua"/> 
+    <globalevent name="Massacre" time="10:30:00" script="bosses/massacre.lua"/>
+    <globalevent name="Countess" time="19:30:00" script="bosses/countess.lua"/>
+    <globalevent name="Plasmother" time="20:30:00" script="bosses/plasmother.lua"/>
+    <globalevent name="Imperor" time="06:30:00" script="bosses/imperor.lua"/>
+    <globalevent name="Punish" time="07:30:00" script="bosses/punish.lua"/>
+    <globalevent name="Dracola" time="08:50:00" script="bosses/dracola.lua"/>
+    <globalevent name="Handmaiden" time="12:30:00" script="bosses/handmaiden.lua"/>
+    <globalevent name="Obujos1" time="23:59:00" script="bosses/Obujos.lua"/>
+    <globalevent name="Tanjis1" time="20:59:00" script="bosses/Tanjis.lua"/>
+    <globalevent name="Jaul1" time="15:59:00" script="bosses/Jaul.lua"/>
+    <globalevent name="grayIslandBosses" type="startup" script="gray island/grayIslandBosses.lua"/>
+    <globalevent name="npcs" type="startup" script="others/npcspawn.lua"/>
+
+	<!-- Ferumbras Ascendant Quest -->
+    <globalevent name="Effect" interval="3000" script="FerumbrasAscedantQuest/effect.lua"/>
+    <globalevent name="Effcts" interval="4000" script="FerumbrasAscedantQuest/effects.lua"/>
+
+	<!-- Blooming Griffinclaw -->
+	<globalevent name="GriffinclawFlower" type="startup" script="others/griffinclawFlower.lua" />
+
+	<!-- Demon Oak Quest -->
+	<globalevent name="DemonOakVoices" interval="15000" script="demon oak quest/voices.lua" />
+
+	<!-- Rent Horses -->
+	<globalevent name="RentedMounts" interval="15000" script="others/checkMount.lua" />
+
+	<!-- World Changes -->
+	<globalevent name="FuryGates" type="startup" script="worldchanges/furygates.lua" />
+	<globalevent name="TheirMastersVoice" type="startup" script="worldchanges/theirmastersvoice.lua" />
+
+	<!-- Others --> 
+	<globalevent type="startup" name="ServerStartup" script="startup.lua" />
+	<globalevent type="record" name="PlayerRecord" script="record.lua" />
+	<globalevent name="ServerSave" time="05:55:00" script="serversave.lua" />	
+	<globalevent type="startup" name="rashid" script="rashid.lua"/>
+	<globalevent type="startup" name="yasir" script="worldchanges/yasir.lua"/>	
+	<!-- raid --> 
+	<globalevent name="SpawnRaid" interval="60000" script="spawn/raids.lua"/>
+
+	<!-- raid -->
+    <globalevent name="text" interval="4550" script="textotp.lua"/>
+	<globalevent type="startup" name="doCheckHouses" script="others/doCheckHouses.lua" />
+	<globalevent name="checkInbox" interval="30000" script="others/checkInbox.lua"/>
+	<globalevent interval="100000" name="GuildWar" script="guildwar.lua"/>
+	<globalevent interval="1800000" name="AutoSave" script="autosave.lua"/>
+	<globalevent name="autoBroadcast" interval="900000" script="autobroadcast.lua"/>
+</globalevents>

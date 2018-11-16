@@ -1,0 +1,15 @@
+<raid>
+<!-- Announcements -->
+
+<!-- Single Spawns -->
+ <script delay="20000" script="Mad Mage.lua" />
+<!--<areaspawn delay="20000" fromx="33311" fromy="31850" fromz="9" tox="33362" toy="31908" toz="9">
+<monster name="Mad Mage" amount="1"/>
+</areaspawn>-->
+<areaspawn delay="10000" fromx="33311" fromy="31850" fromz="9" tox="33362" toy="31908" toz="9">
+<monster name="Golden Servant" amount="7"/>
+</areaspawn>
+<areaspawn delay="10000" fromx="33311" fromy="31850" fromz="9" tox="33362" toy="31908" toz="9">
+<monster name="Iron Servant" amount="7"/>
+</areaspawn>
+</raid>

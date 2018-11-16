@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Melting Frozen Horror" nameDescription="an Melting Frozen Horror" race="undead" experience="65000" speed="286" manacost="0">
+	<health now="70000" max="70000" />
+	<look type="261" corpse="7282" />
+	<targetchange interval="2000" chance="5" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag staticattack="50" />
+		<flag lightlevel="0" />
+		<flag lightcolor="0" />
+		<flag targetdistance="1" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="100" attack="40" min="70" max="-300" />
+
+	</attacks>
+	<defenses armor="25" defense="26" />
+	<elements>
+		<element physicalPercent="-1" />
+		<element deathPercent="1" />
+	</elements>
+	<immunities>
+		<immunity holy="0" />
+		<immunity death="0" />
+		<immunity fire="0" />
+		<immunity ice="1" />
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
+	</immunities>
+
+	<loot>
+		<item id="2148" countmax="100" chance="97000" /><!-- gold coin -->
+		<item id="10578" chance="5" /><!-- frosty heart -->
+		<item id="7441" chance="100000" /><!-- ice cube -->
+		<item id="18304" countmax="100" chance="75542" /><!-- crystalline arrows -->
+		<item id="2150" chance="78524" /><!-- small sapphire -->
+		<item id="7588" chance="2444" /><!-- strong health potion -->
+		<item id="7589" chance="3044" /><!-- strong mana potion -->
+		<item id="2396" chance="31491" /><!-- ice rapier -->
+		<item id="7290" chance="56184" /><!-- shard -->
+		<item id="7449" chance="100000" /><!-- crystal sword -->
+		<item id="2145" countmax="10" chance="730" /><!-- small diamond -->
+		<item id="18413" countmax="5" chance="84524" /><!-- blue crystal shard -->
+		<item id="18414" countmax="3" chance="75902" /><!-- green crystal shard-->
+		<item id="2158" chance="64130" /><!-- Blue Gem -->
+		<item id="2153" chance="64130" /><!-- Violet Gem -->
+		<item id="2155" chance="48852" /><!-- Green Gem -->
+		<item id="25172" chance="45210" /><!--     silver token -->
+		<item id="25377" chance="38415" /><!--     gold token -->
+		<item id="8473" countmax="5" chance="78521" /><!-- ultimate health potion -->		
+		<item id="7459"  chance="87552" /><!--  Pair of Earmuffs -->
+		<item id="26174"  chance="64212" /><!--  Spark Sphere -->
+		<item id="27633" chance="21202" /><!--  Glowing Carrot -->
+		<item id="27634" chance="5918" /><!--  Coal Eyes -->
+		<item id="2183" chance="74851" /><!--   Hailstorm Rod -->
+		<item id="5892" chance="19529" /><!--   Huge Chunk of Crude Iron -->
+		<item id="2445" chance="6544" /><!--   Crystal Mace -->
+		<item id="8878" chance="5461" /><!--   Crystalline armor -->
+		<item id="18450" chance="5610" /><!--   Crystalline Sword -->
+		<item id="18465" chance="3154" /><!--   Shiny Blade -->
+		<item id="15644" chance="7565" /><!--    Ornate Crossbow -->
+		<item id="8887" chance="3456" /><!--    Frozen Plate -->
+		<item id="2444" chance="3654" /><!--    Hammer of Wrath -->
+		<item id="21700" chance="2654" /><!--    Icy cullots -->
+		<item id="27614" chance="2135" /><!--    Part of a Rune(quinta) -->
+		<item id="21697" chance="1235" /><!--    Runic Ice Shield -->
+	</loot>
+</monster>

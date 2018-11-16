@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<announce delay="1000" type="event" message="The lizards of Chor are amassing an army to take over the southern Jungle!" />
+	<announce delay="300000" type="event" message="The army of the lizardmen is growing!" />
+	<announce delay="600000" type="event" message="The lizard army is on its march to Port Hope. The southern jungle is no longer safe!" />
+	<announce delay="900000" type="event" message="The lizard army is marching closer and closer to Port Hope! Beware!" />
+	<announce delay="1200000" type="event" message="The army of the lizards is dangerously close to Port Hope! Fight them back for the sake of humanity!" />
+	<areaspawn delay="1200000" fromx="32698" fromy="32772" fromz="7" tox="32719" toy="32792" toz="7">
+		<monster name="Lizard Sentinel" amount="30" />
+		<monster name="Lizard Templar" amount="20" />
+		<monster name="Lizard Snakecharmer" amount="15" />
+	</areaspawn>
+	<announce delay="1320000" type="event" message="The serpent god may send one of his children to show his wrath!" />
+	<announce delay="1500000" type="event" message="Beware of the serpent god's wrath!" />
+	<areaspawn delay="1500000" fromx="32691" fromy="32701" fromz="7" tox="32714" toy="32745" toz="7">
+		<monster name="Serpent Spawn" amount="6" />
+		<monster name="Hydra" amount="8" />
+	</areaspawn>
+</raid>

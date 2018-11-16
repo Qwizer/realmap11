@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+<announce delay="1000" type="event" message="Dark energy is concentrating in the green claw swamp. Something is about to happen there." />
+<announce delay="600000" type="event" message="The wicked witches invade the green claw swamp! Get out there! Or help defeating them!" />
+  <areaspawn delay="600000" fromx="32784" fromy="31969" fromz="7" tox="32796" toy="31978" toz="7">
+    <monster name="Witch" amount="10" />
+  </areaspawn>
+</raid>

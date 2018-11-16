@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<singlespawn delay="1000" name="Undead Cavebear" x="31980" y="32577" z="10" />
+	<singlespawn delay="1000" name="Undead Cavebear" x="31963" y="32590" z="10" />
+	<singlespawn delay="1000" name="Undead Cavebear" x="31962" y="32590" z="10" />
+	<singlespawn delay="1000" name="Undead Cavebear" x="31912" y="32561" z="10" />
+	<singlespawn delay="1000" name="Undead Cavebear" x="31911" y="32561" z="10" />
+	<singlespawn delay="1000" name="Undead Cavebear" x="31910" y="32561" z="10" />
+</raid>

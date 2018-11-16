@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+	<areaspawn delay="20000" fromx="32963" fromy="31729" fromz="7" tox="32985" toy="31742" toz="7">
+		<monster name="Orc Sambackpack" amount="1" />
+	</areaspawn>
+	
+</raid>
+

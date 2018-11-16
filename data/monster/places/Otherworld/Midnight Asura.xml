@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Midnight Asura" nameDescription="a midnight asura" race="blood" experience="4100" speed="140" manacost="0">
+<health now="3100" max="3100" />
+<look type="150" head="0" body="114" legs="90" feet="90" addons="1" corpse="24644" />
+<targetchange interval="4000" chance="20" />
+<flags>
+<flag summonable="0" />
+<flag attackable="1" />
+<flag hostile="1" />
+<flag illusionable="0" />
+<flag convinceable="0" />
+<flag pushable="0" />
+<flag canpushitems="1" />
+<flag canpushcreatures="1" />
+<flag targetdistance="1" />
+<flag staticattack="80" />
+<flag runonhealth="0" />
+</flags>
+<attacks>
+<attack name="melee" interval="2000" min="0" max="-387" />
+<attack name="manadrain" interval="2000" chance="10" length="4" spread="0" min="0" max="-110">
+<attribute key="areaEffect" value="purpleenergy" />
+</attack>
+<attack name="death" interval="4000" chance="12" length="8" spread="0" min="0" max="-209">
+<attribute key="areaEffect" value="blacksmoke" />
+</attack>
+<attack name="death" interval="3000" chance="15" range="3" min="-10" max="-209">
+<attribute key="areaEffect" value="mortarea" />
+<attribute key="shootEffect" value="suddendeath" />
+</attack>
+<attack name="manadrain" interval="2000" chance="8" range="3" min="0" max="-95">
+<attribute key="areaEffect" value="blueshimmer" />
+</attack>
+<attack name="drunk" interval="2000" chance="12" range="6" radius="4" target="1" duration="5000">
+<attribute key="areaEffect" value="stun"/>
+</attack>
+</attacks>
+<defenses armor="55" defense="55">
+<defense name="invisible" interval="2000" chance="20" duration="8000">
+<attribute key="areaEffect" value="blueshimmer" />
+</defense>
+<defense name="healing" interval="2000" chance="15" min="120" max="170">
+<attribute key="areaEffect" value="blueshimmer" />
+</defense>
+</defenses>
+<elements>
+<element icePercent="10" />
+<element firePercent="10" />
+<element energyPercent="-10" />
+<element earthPercent="-10" />
+<element holyPercent="30" />
+</elements>
+<immunities>
+<immunity death="1" />
+<immunity paralyze="1" />
+<immunity invisible="1" />
+</immunities>
+<voices interval="2000" chance="7">
+<voice sentence="Ah, the sweet music of a beating heart!"/>
+<voice sentence="Death and Darkness"/>
+<voice sentence="Embrace the night!" />
+<voice sentence="May night fall upon you!" />
+</voices>
+<loot>
+<!-- tibia.fandom.com/wiki/Loot_Statistics%3AMidnight_Asura -->
+<item id="2148" countmax="100" chance="97000" /> <!-- gold coin -->
+<item id="2152" countmax="4" chance="18200" /> <!-- platinum coin -->
+<item id="2145" countmax="3" chance="6800" /> <!-- Small Diamond -->
+<item id="2146" countmax="3" chance="5580" /> <!-- Small Sapphire -->
+<item id="7368" countmax="5" chance="4000" /> <!-- Assassin Stars -->
+<item id="2144" countmax="2" chance="6300" /> <!-- Black Pearls -->
+<item id="7591" countmax="2" chance="7000" /> <!-- Great Health Potion -->
+<item id="5944" chance="4100" /> <!-- Soul Orb -->
+<item id="6558" chance="2600" /> <!-- Concentrated Demonic Blood -->
+<item id="6558" chance="12000" /> <!-- Concentrated Demonic Blood -->
+<item id="6500" chance="4210" /> <!-- Demonic Essence -->
+<item id="24630" chance="7800" /> <!-- Golden Lotus Brooch -->
+<item id="9971" chance="2300" /> <!-- Gold Ingot -->
+<item id="24631" chance="7200" /> <!-- Peacock Feather Fan -->
+<item id="2143" countmax="2" chance="5560" /> <!-- White Pearl -->
+<item id="2185" chance="900" /> <!-- Necrotic Rod -->
+<item id="2134" chance="3100" /> <!-- Silver Brooch -->
+<item id="2124" chance="4490" /> <!-- crystal ring -->
+<item id="2170" chance="2100" /> <!-- Silver amulet -->
+<item id="3967" chance="4100" /> <!-- Tribal Mask -->
+<item id="2154" chance="1100" /> <!-- Yellow Gem -->
+<item id="2158" chance="1320" /> <!-- Blue Gem -->
+<item id="2656" chance="1250" /> <!-- Blue Robe -->
+<item id="24637" chance="980" /> <!-- Oriental Shoes -->
+<item id="8889" chance="490" /> <!-- Skullcracker Armor -->
+<item id="8910" chance="1770" /> <!-- Underworld Rod -->
+<item id="7404" chance="730" /> <!-- Assassin Dagger-->
+<item id="8902" chance="1200" /> <!-- Spellbook of Mind Control -->
+</loot>
+</monster>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<announce delay="1000" type="event" message="There seems to be a bat problem in the Kazordoon mines." />
+	 <areaspawn delay="1000" fromx="32498" fromy="31876" fromz="8" tox="32546" toy="31923" toz="8">
+	    <monster name="Bat" amount="60" />
+	 </areaspawn>
+</raid>

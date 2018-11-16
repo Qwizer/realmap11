@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<areaspawn delay="1000" fromx="32531" fromy="31768" fromz="5" tox="32540" toy="31778" toz="5">
+		<monster name="Orc" amount="15" />
+		<monster name="Orc Warrior" amount="10" />
+		<monster name="War Wolf" amount="8" />
+		<monster name="Orc Rider" amount="5" />
+		<monster name="Orc Berserker" amount="3" />
+		<monster name="Orc Shaman" amount="2" />
+	</areaspawn>
+	<singlespawn delay="1000" name="Orchelmet" x="32537" y="31766" z="5" />
+	<singlespawn delay="1000" name="Orcarmor" x="32541" y="31767" z="5" />
+</raid>
