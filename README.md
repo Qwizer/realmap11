@@ -19,6 +19,7 @@
 -> SDK disponivel com as ferramentas o servidor [Download aqui!](https://gitlab.com/malucooo/OTXServer-SDK/-/archive/master/OTXServer-SDK-master.zip)
 
 -> Cliente disponivel Frequentemente atualizado e compativel (10/11) [Download aqui!](https://#)
+
 -> Item Editor e Object Build [Download aqui!](https://#)
 
 -> Remeres Map Editor [Download aqui!](https://#)
@@ -28,6 +29,6 @@
 # Contato:
 -> Skype: onjogos
 
--> [Whatsapp] (http://api.whatsapp.com/send?1=pt_BR&phone=5566984274493) ou 66 9 8427-4493
+-> [Whatsapp](http://api.whatsapp.com/send?1=pt_BR&phone=5566984274493) ou 66 9 8427-4493
 
 -> Discord: Qwizer#5713
