@@ -124,7 +124,7 @@ $world = array(
 //Survey by: Cjaker
 $survey = array(
     "id" => rand(0, 999999),
-    "invitationtext" => "Querido tibiano, obrigado por usar OTX, a base mais atualizada do Tibia Global.\n'Mensagem dita por Cjaker'.",
+    "invitationtext" => "Querido tibiano, obrigado por usar nosso servidor, a base mais atualizada do Tibia Global.",
     "invitationtoken" => "1751f1beddf001e1d36dee78ace974",
     "endtimestamp" => 1510614000
 );
