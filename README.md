@@ -18,11 +18,11 @@
 # Ferramentas para download
 -> SDK disponivel com as ferramentas o servidor [Download aqui!](https://gitlab.com/malucooo/OTXServer-SDK/-/archive/master/OTXServer-SDK-master.zip)
 
--> Cliente disponivel Frequentemente atualizado e compativel (10/11) [Download aqui!](https://#)
+-> Cliente disponivel Frequentemente atualizado e compativel (10/11) [Download aqui!](https://github.com/Qwizer/tools)
 
--> Item Editor e Object Build [Download aqui!](https://#)
+-> Item Editor e Object Build [Download aqui!](https://github.com/Qwizer/tools)
 
--> Remeres Map Editor [Download aqui!](https://#)
+-> Remeres Map Editor [Download aqui!](https://github.com/Qwizer/tools/blob/master/RME.zip)
 
 -> Website Compativel (Riicksouza) [Gesior Compativel](https://github.com/Riicksouzaa/TheRealGesiorFerobra/archive/master.zip).
 
