@@ -49,6 +49,9 @@
 	<wand id="25955" level="100" mana="18" min="70" max="105" type="ice"> <!-- Rod of Remedy -->
 		<vocation name="Druid" />
 	</wand>
+	<wand id="30725" level="100" mana="18" min="70" max="105" type="ice"> <!-- Rod of destruction -->
+		<vocation name="Druid" />
+	</wand>
 	<wand id="29004" level="80" mana="17" min="63" max="77" type="energy"> <!-- Wand blossom -->
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
@@ -107,6 +110,9 @@
 		<vocation name="Sorcerer" />
 	</wand>
 	<wand id="25951" level="100" mana="18" min="70" max="105" type="energy"> <!-- Wand of Remedy -->
+		<vocation name="Sorcerer" />
+	</wand>
+	<wand id="30724" level="100" mana="18" min="70" max="105" type="energy"> <!-- Wand of destruction -->
 		<vocation name="Sorcerer" />
 	</wand>
 
