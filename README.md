@@ -13,10 +13,10 @@
 -> [Fórum Otland](http://www.otland.net)
 
 # Tutoriais
--> Como compilar o servidor  [TFS Wiki](https://github.com/otland/forgottenserver/wiki/Compiling)
+-> Como compilar o servidor  [TFS Wiki](https://github.com/mattyx14/otxserver/wiki)
 
 # Ferramentas para download
--> SDK disponivel com as ferramentas o servidor [Download aqui!](https://gitlab.com/malucooo/OTXServer-SDK/-/archive/master/OTXServer-SDK-master.zip)
+-> SDK disponivel com as ferramentas o servidor [Download aqui!](https://github.com/mattyx14/otxserver/wiki/Compilling-on-Windows)
 
 -> Cliente disponivel Frequentemente atualizado e compativel (10/11) [Download aqui!](https://github.com/Qwizer/tools)
 
