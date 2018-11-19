@@ -122,9 +122,6 @@
 	<action itemid="22503" script="roshamuul/mortar.lua" />
 	<action itemid="22504" script="roshamuul/trough.lua" />
 	
-	<!-- Arena Pvp -->
-    <action actionid="61225" script="Novos/citywar.lua"/>
-	
 	<action itemid="23760" script="lionrock.lua" />
 	<action itemid="23835" script="lionrock.lua" />
 	<action itemid="10551" script="lionrock.lua" /> 
