@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
 
+	<!-- T﻿raining -->
+    <action fromid="31821" toid="31826" script="exercise_training.lua" allowfaruse="1"/>
+
 	<!-- Store -->
 	<action itemid="26378" script="other/goldconverter.lua" />
 	<action itemid="26347" script="other/fishtank.lua"/>

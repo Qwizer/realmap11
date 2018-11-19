@@ -25,6 +25,8 @@ local titles = {
 	{storageID = 14971, title = " King"},
 }
 
+local exercise_ids = {31821,31822,31823,31824,31825,31826}
+
 local function getTitle(uid)
 	local player = Player(uid)
 	if not player then return false end
@@ -284,6 +286,11 @@ function Player:onMoveItem(item, count, fromPosition, toPosition, fromCylinder, 
 		return false
 	end
 
+	if isInArray(exercise_ids,item.itemid) then
+        self:sendCancelMessage('You cannot move this item outside this container.')
+        return false
+    end
+	
 	-- SSA exhaust
 	local exhaust = { }
 	if toPosition.x == CONTAINER_POSITION and toPosition.y == CONST_SLOT_NECKLACE and item:getId() == STONE_SKIN_AMULET then
@@ -587,6 +594,11 @@ function Player:onTurn(direction)
 end
 
 function Player:onTradeRequest(target, item)
+
+	if isInArray(exercise_ids,item.itemid) then
+        return false
+    end
+	
 	return true
 end
 
