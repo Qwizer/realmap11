@@ -1049,8 +1049,28 @@
 		<vocation name="Elder Druid" showInDescription="0" />
 	</movevent>
 	<movevent event="DeEquip" itemid="23536" slot="head" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="31983" slot="head" level="300" function="onEquipItem"> <!-- Falcon Circlet -->
+		<vocation name="Druid" />
+		<vocation name="Elder Druid" showInDescription="0" />
+		<vocation name="Sorcerer" />
+		<vocation name="Master Sorcerer" showInDescription="0" />
+	</movevent>
+	<movevent event="DeEquip" itemid="31983" slot="head" function="onDeEquipItem" />
+	
+	<movevent event="Equip" itemid="31984" slot="head" level="300" function="onEquipItem"> <!-- Falcon Coif -->
+		<vocation name="Paladin" />
+		<vocation name="Royal Paladin" showInDescription="0" />
+		<vocation name="Knight" />
+		<vocation name="Elite Knight" showInDescription="0" />
+	</movevent>
+	<movevent event="DeEquip" itemid="31984" slot="head" function="onDeEquipItem" />
 	
 	<!-- Armors -->
+	<movevent event="Equip" itemid="31988" slot="armor" level="300" function="onEquipItem"> <!-- Falcon Plate -->
+		<vocation name="Knight" />
+		<vocation name="Elite Knight" showInDescription="0" />
+	</movevent>
+	<movevent event="DeEquip" itemid="31988" slot="armor" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="2466" slot="armor" function="onEquipItem">
 		<vocation name="Knight" />
 		<vocation name="Elite Knight" showInDescription="0" />
@@ -1475,6 +1495,13 @@
 	<movevent event="DeEquip" itemid="24741" slot="armor" function="onDeEquipItem" />
 	
 	<!-- Legs -->
+	<movevent event="Equip" itemid="31989" slot="legs" level="300" function="onEquipItem"> <!-- Falcon Greaves -->
+		<vocation name="Knight" />
+		<vocation name="Elite Knight" showInDescription="0" />
+		<vocation name="Paladin" />		
+		<vocation name="Royal Paladin" showInDescription="0" />
+	</movevent>
+	<movevent event="DeEquip" itemid="31989" slot="legs" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="2477" slot="legs" function="onEquipItem" >
 		<vocation name="Knight" />
 		<vocation name="Elite Knight" showInDescription="0" />
@@ -2141,6 +2168,20 @@
 	<movevent event="DeEquip" itemid="7450" slot="hand" function="onDeEquipItem" />
 
 	<!-- Shields -->
+	<movevent event="Equip" itemid="31990" slot="shield" level="300" function="onEquipItem"> <!-- Falcon Shield -->
+		<vocation name="Paladin" />
+		<vocation name="Royal Paladin" showInDescription="0" />
+		<vocation name="Knight" />
+		<vocation name="Elite Knight" showInDescription="0" />
+	</movevent>
+	<movevent event="DeEquip" itemid="31990" slot="shield" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="31991" slot="shield" level="300" function="onEquipItem"> <!-- Falcon Escutcheon -->
+		<vocation name="Paladin" />
+		<vocation name="Royal Paladin" showInDescription="0" />
+		<vocation name="Knight" />
+		<vocation name="Elite Knight" showInDescription="0" />
+	</movevent>
+	<movevent event="DeEquip" itemid="31991" slot="shield" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="25414" slot="shield" level="200" function="onEquipItem" />
 	<movevent event="DeEquip" itemid="25414" slot="shield" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="25411" slot="shield" level="150" function="onEquipItem" >
