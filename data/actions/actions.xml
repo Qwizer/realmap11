@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
-
+	<!-- Dangerous Depths -->
+	<action actionid="57233" script="quests/Dangerous Depths/woodenTrash.lua" />
+	<action uniqueid="57234" script="quests/Dangerous Depths/gnomishChest.lua" />
+	<action fromuid="57235" touid="57236" script="quests/Dangerous Depths/gnomeItens.lua" />
+	<action actionid="57234" script="quests/Dangerous Depths/leverBarrel.lua" />
+	<action fromaid="57300" toaid="57302" script="quests/Dangerous Depths/crudeLavaPump.lua"/>
+	<action actionid="57303" script="quests/Dangerous Depths/crudeLavaPumpAchievements.lua"/>
+	<action itemid="30733" script="quests/Dangerous Depths/gnomishPesticide.lua" />
+	<action itemid="31930" script="quests/Dangerous Depths/gnomeTrignometre.lua" />
+	<action itemid="31931" script="quests/Dangerous Depths/gnomeChart.lua" />
+	<action itemid="32014" script="other/surprise jar.lua" />
+	<action itemid="21993" script="quests/Dangerous Depths/usingCrystals.lua" />
+	<action fromaid="57350" toaid="57355" script="quests/Dangerous Depths/WarzoneVI.lua" />
+	<action fromaid="57356" toaid="57361" script="quests/Dangerous Depths/WarzoneV.lua" />
+	<action fromaid="57362" toaid="57367" script="quests/Dangerous Depths/WarzoneIV.lua />
+	
 	<!-- T﻿raining -->
     <action fromid="31821" toid="31826" script="exercise_training.lua" allowfaruse="1"/>
 
