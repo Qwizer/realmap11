@@ -56,6 +56,18 @@
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 	</wand>	
+	<wand id="31985" level="300" mana="20" min="87" max="101" type="earth"> <!-- Falcon Rod -->
+		<vocation name="Druid" />
+	</wand>
+	<wand id="32094" level="300" mana="23" min="86" max="93" type="ice"> <!-- Deepling Ceremonial Dagger -->
+		<vocation name="Druid" />
+		<vocation name="Sorcerer" />
+	</wand>
+	<wand id="32095" level="300" mana="23" min="80" max="120" type="ice"> <!-- deepling fork -->
+		<vocation name="Druid" />
+		<vocation name="Sorcerer" />
+	</wand>
+	
 	<!-- Wands -->
 	<wand id="23719" level="1" mana="1" min="3" max="7" type="fire"> <!-- The Scorcher -->
 		<vocation name="Sorcerer" />
@@ -113,6 +125,9 @@
 		<vocation name="Sorcerer" />
 	</wand>
 	<wand id="30724" level="100" mana="18" min="70" max="105" type="energy"> <!-- Wand of destruction -->
+		<vocation name="Sorcerer" />
+	</wand>
+	<wand id="31986" level="300" mana="21" min="86" max="102" type="energy"> <!-- Falcon Wand -->
 		<vocation name="Sorcerer" />
 	</wand>
 
