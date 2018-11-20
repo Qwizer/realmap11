@@ -327,7 +327,11 @@
 		<vocation name="Elite Knight" showInDescription="0" />
 	</melee>
 	<melee id="23548" level="25" unproperly="1" />
-
+	<melee id="31992" level="300" unproperly="1">
+		<vocation name="Knight" />
+		<vocation name="Elite Knight" showInDescription="0" />
+	</melee>
+	
 	<!-- Axes -->
 	<melee id="2378" unproperly="1">
 		<vocation name="Knight" />
@@ -453,7 +457,11 @@
 	</melee>
 	<melee id="23547" level="55" unproperly="1" />
 	<melee id="23545" level="45" unproperly="1" />
-
+	<melee id="31993" level="300" unproperly="1">
+		<vocation name="Knight" />
+		<vocation name="Elite Knight" showInDescription="0" />
+	</melee>
+	
 	<!--Clubs -->
 	<melee id="2423" level="20" unproperly="1" />
 	<melee id="7381" level="20" unproperly="1" />
@@ -567,6 +575,10 @@
 	<melee id="23544" level="60" unproperly="1" />
 	<melee id="23543" level="25" unproperly="1" />
 	<melee id="23542" level="55" unproperly="1" />
+	<melee id="31994" level="300" unproperly="1">
+		<vocation name="Knight" />
+		<vocation name="Elite Knight" showInDescription="0" />
+	</melee>
 
 	<!-- Bows and Crossbows -->
 	<distance id="5803" level="75" unproperly="1"> <!-- Arbalest -->
@@ -695,6 +707,10 @@
 		<vocation name="Royal Paladin" showInDescription="0" />
 	</distance>
 	<distance id="22421" level="250" unproperly="1"> <!-- Umbral Master Crossbow -->
+		<vocation name="Paladin" />
+		<vocation name="Royal Paladin" showInDescription="0" />
+	</distance>
+	<distance id="31987" level="300" unproperly="1"> <!-- Falcon bow -->
 		<vocation name="Paladin" />
 		<vocation name="Royal Paladin" showInDescription="0" />
 	</distance>
