@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <creaturescripts>
-
+    <!-- Dangerous Depths -->
+	<event type="kill" name="dwarvesTasks" script="Dangerous Depths/dwarvesTasks.lua"/>
+	<event type="login" name="loginDwarvesTasks" script="Dangerous Depths/login.lua"/>
+	<event type="healthchange" name="healFireDamage" script="Dangerous Depths/healFireDamage.lua"/>
+	<event type="think" name="emberBeasts" script="Dangerous Depths/emberBeasts.lua"/>
+	<event type="kill" name="snailSlimeKill" script="Dangerous Depths/emberBeasts.lua"/>
+	<event type="kill" name="bossesMission" script="Dangerous Depths/bossesMission.lua"/>
+	<event type="think" name="fieryHearts" script="Dangerous Depths/fieryHearts.lua"/>
+	<event type="think" name="theBaronFromBelow" script="Dangerous Depths/theBaronFromBelow.lua"/>
+	<event type="kill" name="theBaronFromBelowKill" script="Dangerous Depths/theBaronFromBelow.lua"/>
+	
 	<!-- Forgotten Knowledge -->
 	<event type="kill" name="thornknight" script="hallsofhope/thornknight.lua" />
 	<event type="kill" name="timeguardian" script="hallsofhope/timeguardian.lua" />
