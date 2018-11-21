@@ -16,7 +16,7 @@
 	<action fromaid="57362" toaid="57367" script="Dangerous Depths/WarzoneIV.lua />
 	
 	<!-- T﻿raining -->
-    <action fromid="31821" toid="31826" script="exercise_training.lua" allowfaruse="1"/>
+    <action fromid="31821" toid="31826" script="exercise_training.lua"/>
 
 	<!-- Arena Pvp -->
     <action actionid="61225" script="citywar.lua"/>
