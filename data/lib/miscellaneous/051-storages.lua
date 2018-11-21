@@ -17,6 +17,7 @@ Storage = {
 		timeTaskSubterranean = 808,
 		timeAcesso = 809,
 	},
+},	
 	SweetyCyclops = {
 		AmuletTimer = 48,
 		AmuletStatus = 49
