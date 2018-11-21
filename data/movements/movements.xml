@@ -2,13 +2,13 @@
 <movements>
 
 	<!-- Dangerous Depths -->
-	<movevent event="StepIn" actionid="57231" script="quests/Dangerous Depths/lostExiles.lua"/>
-	<movevent event="StepIn" actionid="57240" script="quests/Dangerous Depths/gnomesAvalanche.lua"/>
-	<movevent event="StepIn" actionid="57241" script="quests/Dangerous Depths/gnomesOrdnance.lua"/>
-	<movevent event="StepIn" actionid="57242" script="quests/Dangerous Depths/gnomesOrdnanceEnd.lua"/>
-	<movevent event="StepIn" actionid="57243" script="quests/Dangerous Depths/bossesEntrance.lua"/>
-	<movevent event="StepIn" actionid="57232" script="quests/Dangerous Depths/energyEntrances.lua"/>
-	<movevent event="StepIn" actionid="57230" script="quests/Dangerous Depths/warzoneEntrances.lua"/>
+	<movevent event="StepIn" actionid="57231" script="Dangerous Depths/lostExiles.lua"/>
+	<movevent event="StepIn" actionid="57240" script="Dangerous Depths/gnomesAvalanche.lua"/>
+	<movevent event="StepIn" actionid="57241" script="Dangerous Depths/gnomesOrdnance.lua"/>
+	<movevent event="StepIn" actionid="57242" script="Dangerous Depths/gnomesOrdnanceEnd.lua"/>
+	<movevent event="StepIn" actionid="57243" script="Dangerous Depths/bossesEntrance.lua"/>
+	<movevent event="StepIn" actionid="57232" script="Dangerous Depths/energyEntrances.lua"/>
+	<movevent event="StepIn" actionid="57230" script="Dangerous Depths/warzoneEntrances.lua"/>
 
 	<!-- Ilha 999 -->
 	<movevent event="StepIn" actionid="15998" script="tp999.lua" />
