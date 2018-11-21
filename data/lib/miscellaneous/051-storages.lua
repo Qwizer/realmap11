@@ -3,6 +3,20 @@
 -- Sort it in Values -
 
 Storage = {
+	DangerousDepths = {
+	Questline = 800,
+		Dwarves = {
+		Status = 897,
+		Home = 801, -- Missão
+		Subterranean = 802, -- Missão
+		LostExiles = 803,
+		Prisoners = 804,
+		Organisms = 805,
+		PrisonerStg = 806,
+		timeTaskHome = 807,
+		timeTaskSubterranean = 808,
+		timeAcesso = 809,
+	},
 	SweetyCyclops = {
 		AmuletTimer = 48,
 		AmuletStatus = 49
@@ -1049,4 +1063,14 @@ GlobalStorage = {
 	ExpBoost = 51052,
 	SwordOfFury = 5635
 
+}
+
+GlobalStorage = {
+	DangerousDepths = {
+	Geodes = {
+		WarzoneVI = 533000,
+		WarzoneV = 533001,
+		WarzoneIV = 533002,
+		},
+	},
 }
