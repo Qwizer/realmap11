@@ -5,7 +5,7 @@
 Storage = {
 	DangerousDepths = {
 	Questline = 800,
-		Dwarves = {
+	Dwarves = {
 		Status = 897,
 		Home = 801, -- Missão
 		Subterranean = 802, -- Missão
@@ -17,7 +17,101 @@ Storage = {
 		timeTaskSubterranean = 808,
 		timeAcesso = 809,
 	},
-},	
+		
+	Scouts = {
+		Status = 899,
+		Diremaw = 810, -- Missão
+		Growth = 811, -- Missão
+		DiremawsCount = 812,
+		GnomishChest = 813,
+		BarrelCount = 814,
+		firstBarrel = 815,
+		secondBarrel = 816,
+		thirdBarrel = 817,
+		fourthBarrel = 818,
+		fifthBarrel = 819,
+		timeTaskDiremaws = 820,
+		timeTaskGrowth = 821,
+		barrelStg = 822,
+		barrelTimer = 823,	
+	},
+		
+	Gnomes = {
+		Status = 898,
+		Ordnance = 824, -- Missão 
+		Measurements = 825, -- Missão
+		Charting = 826, -- Missão
+		GnomeChartChest = 827, -- Measurements
+		GnomeChartPaper = 828, -- Charting
+		GnomesCount = 829, -- Ordnance
+		CrawlersCount = 830, -- Ordnance
+		locationA = 831, -- Measurements
+		locationB = 832, -- Measurements
+		locationC = 833, -- Measurements
+		locationD = 834, -- Measurements
+		locationE = 835, -- Measurements
+		locationCount = 836, -- Measurements
+		OldGate = 837, -- Charting
+		TheGaze = 838, -- Charting
+		LostRuin = 839, -- Charting
+		Outpost = 840, -- Charting 
+		Bastion = 841,-- Charting 
+		BrokenTower = 842, -- Charting
+		ChartingCount = 843, -- Contador
+		timeTaskOrdnance = 844,
+		timeTaskMeasurements = 845,
+		timeTaskCharting = 846,
+	},
+		
+	Acessos = {
+		LavaPumpWarzoneVI = 847,
+		TimerWarzoneVI = 848,
+		LavaPumpWarzoneV = 849,
+		TimerWarzoneV = 850,
+		LavaPumpWarzoneIV = 851,
+		TimerWarzoneIV = 852,
+	},
+		
+	Crystals = {
+		WarzoneVI = {
+		bigCrystal1 = 853,
+		bigCrystal2 = 854,
+		mediumCrystal1 = 855,
+		mediumCrystal2 = 856,
+		smallCrystal1 = 857,
+		smallCrystal2 = 858,
+	},
+	
+	WarzoneV = {
+		bigCrystal1 = 859,
+		bigCrystal2 = 860,
+		mediumCrystal1 = 861,
+		mediumCrystal2 = 862,
+		smallCrystal1 = 863,
+		smallCrystal2 = 864,
+	},
+	
+	WarzoneIV = {
+		bigCrystal1 = 865,
+		bigCrystal2 = 866,
+		mediumCrystal1 = 867,
+		mediumCrystal2 = 868,
+			smallCrystal1 = 869,
+		smallCrystal2 = 870,
+		},
+	},
+	
+	Bosses = {
+		theCountOfTheCore = 871,
+		theDukeOfTheDepths = 872,
+		theBaronFromBelow = 873,
+		theCountOfTheCoreAchiev = 874,
+		theDukeOfTheDepthsAchiev = 875,
+		theBaronFromBelowAchiev = 876,
+		lastAchievement = 877,
+	},
+},
+	
 	SweetyCyclops = {
 		AmuletTimer = 48,
 		AmuletStatus = 49
