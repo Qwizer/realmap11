@@ -41,7 +41,7 @@
 		<item name="gold coin" countmax="100" chance="30000" />
 		<item name="stealth ring" chance="492" />
 		<item id="2684" countmax="3" chance="55000" />
-		<item name="strong health porion" chance="719" />
+		<item name="strong health potion" chance="719" />
 		<item name="orange mushroom" chance="10000" />
 		<item name="fern" chance="30100" />
 		<item name="opal" chance="5155" />
