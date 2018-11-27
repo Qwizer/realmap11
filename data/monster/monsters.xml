@@ -271,40 +271,40 @@
 
 	<!-- Arena -->
 	<!-- Greenhorn -->
-	<monster name="Achad" file="specialcreatures//arena/greenhorn/achad.xml" />
-	<monster name="Axeitus Headbanger" file="specialcreatures//arena/greenhorn/axeitus_headbanger.xml" />
-	<monster name="Bloodpaw" file="specialcreatures//arena/greenhorn/bloodpaw.xml" />
-	<monster name="Bovinus" file="specialcreatures//arena/greenhorn/bovinus.xml" />
-	<monster name="Colerian The Barbarian" file="specialcreatures//arena/greenhorn/colerian_the_barbarian.xml" />
-	<monster name="Cursed Gladiator" file="specialcreatures//arena/greenhorn/cursed_gladiator.xml" />
-	<monster name="Frostfur" file="specialcreatures//arena/greenhorn/frostfur.xml" />
-	<monster name="Orcus the Cruel" file="specialcreatures//arena/greenhorn/orcus_the_cruel.xml" />
-	<monster name="Rocky" file="specialcreatures//arena/greenhorn/rocky.xml" />
-	<monster name="The Hairy One" file="specialcreatures//arena/greenhorn/the_hairy_one.xml" />
+	<monster name="Achad" file="specialcreatures/arena/greenhorn/achad.xml" />
+	<monster name="Axeitus Headbanger" file="specialcreatures/arena/greenhorn/axeitus_headbanger.xml" />
+	<monster name="Bloodpaw" file="specialcreatures/arena/greenhorn/bloodpaw.xml" />
+	<monster name="Bovinus" file="specialcreatures/arena/greenhorn/bovinus.xml" />
+	<monster name="Colerian The Barbarian" file="specialcreatures/arena/greenhorn/colerian_the_barbarian.xml" />
+	<monster name="Cursed Gladiator" file="specialcreatures/arena/greenhorn/cursed_gladiator.xml" />
+	<monster name="Frostfur" file="specialcreatures/arena/greenhorn/frostfur.xml" />
+	<monster name="Orcus the Cruel" file="specialcreatures/arena/greenhorn/orcus_the_cruel.xml" />
+	<monster name="Rocky" file="specialcreatures/arena/greenhorn/rocky.xml" />
+	<monster name="The Hairy One" file="specialcreatures/arena/greenhorn/the_hairy_one.xml" />
 
 	<!-- Scrapper -->
-	<monster name="Avalanche" file="specialcreatures//arena/scrapper/avalanche.xml" />
-	<monster name="Drasilla" file="specialcreatures//arena/scrapper/drasilla.xml" />
-	<monster name="Grimgor Guteater" file="specialcreatures//arena/scrapper/grimgor_guteater.xml" />
-	<monster name="Kreebosh the Exile" file="specialcreatures//arena/scrapper/kreebosh_the_exile.xml" />
-	<monster name="Slim" file="specialcreatures//arena/scrapper/slim.xml" />
-	<monster name="Spirit of Earth" file="specialcreatures//arena/scrapper/spirit_of_earth.xml" />
-	<monster name="Spirit of Fire" file="specialcreatures//arena/scrapper/spirit_of_fire.xml" />
-	<monster name="Spirit of Water" file="specialcreatures//arena/scrapper/spirit_of_water.xml" />
-	<monster name="The Dark Dancer" file="specialcreatures//arena/scrapper/the_dark_dancer.xml" />
-	<monster name="The Hag" file="specialcreatures//arena/scrapper/the_hag.xml" />
+	<monster name="Avalanche" file="specialcreatures/arena/scrapper/avalanche.xml" />
+	<monster name="Drasilla" file="specialcreatures/arena/scrapper/drasilla.xml" />
+	<monster name="Grimgor Guteater" file="specialcreatures/arena/scrapper/grimgor_guteater.xml" />
+	<monster name="Kreebosh the Exile" file="specialcreatures/arena/scrapper/kreebosh_the_exile.xml" />
+	<monster name="Slim" file="specialcreatures/arena/scrapper/slim.xml" />
+	<monster name="Spirit of Earth" file="specialcreatures/arena/scrapper/spirit_of_earth.xml" />
+	<monster name="Spirit of Fire" file="specialcreatures/arena/scrapper/spirit_of_fire.xml" />
+	<monster name="Spirit of Water" file="specialcreatures/arena/scrapper/spirit_of_water.xml" />
+	<monster name="The Dark Dancer" file="specialcreatures/arena/scrapper/the_dark_dancer.xml" />
+	<monster name="The Hag" file="specialcreatures/arena/scrapper/the_hag.xml" />
 
 	<!-- Warlord -->
-	<monster name="Darakan the Executioner" file="specialcreatures//arena/warlord/darakan_the_executioner.xml" />
-	<monster name="Deathbringer" file="specialcreatures//arena/warlord/deathbringer.xml" />
-	<monster name="Fallen Mooh'tah Master Ghar" file="specialcreatures//arena/warlord/fallen_mooh'tah_master_ghar.xml" />
-	<monster name="Gnorre Chyllson" file="specialcreatures//arena/warlord/gnorre_chyllson.xml" />
-	<monster name="Norgle Glacierbeard" file="specialcreatures//arena/warlord/norgle_glacierbeard.xml" />
-	<monster name="Svoren the Mad" file="specialcreatures//arena/warlord/svoren_the_mad.xml" />
-	<monster name="The Masked Marauder" file="specialcreatures//arena/warlord/the_masked_marauder.xml" />
-	<monster name="The Obliverator" file="specialcreatures//arena/warlord/the_obliverator.xml" />
-	<monster name="The Pit Lord" file="specialcreatures//arena/warlord/the_pit_lord.xml" />
-	<monster name="Webster" file="specialcreatures//arena/warlord/webster.xml" />
+	<monster name="Darakan the Executioner" file="specialcreatures/arena/warlord/darakan_the_executioner.xml" />
+	<monster name="Deathbringer" file="specialcreatures/arena/warlord/deathbringer.xml" />
+	<monster name="Fallen Mooh'tah Master Ghar" file="specialcreatures/arena/warlord/fallen_mooh'tah_master_ghar.xml" />
+	<monster name="Gnorre Chyllson" file="specialcreatures/arena/warlord/gnorre_chyllson.xml" />
+	<monster name="Norgle Glacierbeard" file="specialcreatures/arena/warlord/norgle_glacierbeard.xml" />
+	<monster name="Svoren the Mad" file="specialcreatures/arena/warlord/svoren_the_mad.xml" />
+	<monster name="The Masked Marauder" file="specialcreatures/arena/warlord/the_masked_marauder.xml" />
+	<monster name="The Obliverator" file="specialcreatures/arena/warlord/the_obliverator.xml" />
+	<monster name="The Pit Lord" file="specialcreatures/arena/warlord/the_pit_lord.xml" />
+	<monster name="Webster" file="specialcreatures/arena/warlord/webster.xml" />
 
 	<!-- Barbarians -->
 	<monster name="Barbarian Bloodwalker" file="humans/barbarians/barbarian_bloodwalker.xml" />
