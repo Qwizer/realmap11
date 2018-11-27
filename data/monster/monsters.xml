@@ -1168,8 +1168,8 @@
 	<monster name="Preceptor Lazare" file="falcons/Preceptor Lazare.xml" />
 	
 	<!-- New Asuras -->
-    <monster name="Frost Flower Asura" file="NewAsuras/Frost Flower Asura.xml" />
-	<monster name="True Dawnfire Asura" file="NewAsuras/True Dawnfire Asura.xml" />
-	<monster name="True Midnight Asura" file="NewAsuras/True Midnight Asura.xml" />	
-	<monster name="True Frost Flower Asura" file="NewAsuras/True Frost Flower Asura.xml" />	
+    <monster name="Frost Flower Asura" file="asuras/Frost Flower Asura.xml" />
+	<monster name="True Dawnfire Asura" file="asuras/True Dawnfire Asura.xml" />
+	<monster name="True Midnight Asura" file="asuras/True Midnight Asura.xml" />	
+	<monster name="True Frost Flower Asura" file="asuras/True Frost Flower Asura.xml" />
 </monsters>
