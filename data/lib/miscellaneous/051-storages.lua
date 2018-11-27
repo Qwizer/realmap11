@@ -1154,13 +1154,7 @@ GlobalStorage = {
 		DiprathSwitchesGlobalStorage = 201,
 		AshmunrahSwitchesGlobalStorage = 202
 	},
-	NaginataStone = 50058,
-	ExpBoost = 51052,
-	SwordOfFury = 5635
-
-}
-
-GlobalStorage = {
+	
 	DangerousDepths = {
 	Geodes = {
 		WarzoneVI = 533000,
@@ -1168,4 +1162,9 @@ GlobalStorage = {
 		WarzoneIV = 533002,
 		},
 	},
+	
+	NaginataStone = 50058,
+	ExpBoost = 51052,
+	SwordOfFury = 5635
+
 }
