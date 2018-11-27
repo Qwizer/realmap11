@@ -1166,4 +1166,10 @@
     <monster name="Grand Commander Soeren" file="falcons/Grand Commander Soeren.xml" />
 	<monster name="Grand Chaplain Gaunder" file="falcons/Grand Chaplain Gaunder.xml" />
 	<monster name="Preceptor Lazare" file="falcons/Preceptor Lazare.xml" />
+	
+	<!-- New Asuras -->
+    <monster name="Frost Flower Asura" file="NewAsuras/Frost Flower Asura.xml" />
+	<monster name="True Dawnfire Asura" file="NewAsuras/True Dawnfire Asura.xml" />
+	<monster name="True Midnight Asura" file="NewAsuras/True Midnight Asura.xml" />	
+	<monster name="True Frost Flower Asura" file="NewAsuras/True Frost Flower Asura.xml" />	
 </monsters>
