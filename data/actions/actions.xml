@@ -13,7 +13,7 @@
 	<action itemid="21993" script="Dangerous Depths/usingCrystals.lua" />
 	<action fromaid="57350" toaid="57355" script="Dangerous Depths/WarzoneVI.lua" />
 	<action fromaid="57356" toaid="57361" script="Dangerous Depths/WarzoneV.lua" />
-	<action fromaid="57362" toaid="57367" script="Dangerous Depths/WarzoneIV.lua />
+	<action fromaid="57362" toaid="57367" script="Dangerous Depths/WarzoneIV.lua" />
 	
 	<!-- T﻿raining -->
     <action fromid="31821" toid="31826" script="exercise_training.lua"/>
