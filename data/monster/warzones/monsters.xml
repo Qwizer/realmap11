@@ -1,0 +1,28 @@
+	<!--Warzones 4-->
+  	<monster name="Lava Lurker" file="Warzones/4/Lava Lurker.xml"/>
+  	<monster name="Mole" file="Warzones/4/Mole.xml"/>
+  	<monster name="Chasm Spawn" file="Warzones/4/Chasm Spawn.xml"/>
+  	<monster name="Lost Gnome" file="Warzones/4/Lost Gnome.xml"/>
+  	<monster name="Ravenous Lava Lurker" file="Warzones/4/Ravenous Lava Lurker.xml"/>
+  	<monster name="Gnome Pack Crawler" file="Warzones/4/Gnome Pack Crawler.xml"/>
+  	<monster name="The Baron From Below" file="Warzones/4/The Baron From Below.xml"/>
+  	<monster name="The Hungry Baron From Below" file="Warzones/4/The Hungry Baron From Below.xml"/>
+  	<monster name="Aggressive Matter" file="Warzones/4/Aggressive Matter.xml"/>
+  	<monster name="Organic Matter" file="Warzones/4/Organic Matter.xml"/>
+  	<!--Warzones 5-->
+  	<monster name="Tunnel Tyrant" file="Warzones/5/Tunnel Tyrant.xml"/>
+  	<monster name="Cave Devourer" file="Warzones/5/Cave Devourer.xml"/>
+  	<monster name="The Count Of The Core" file="Warzones/5/The Count Of The Core.xml"/>
+  	<monster name="Lost Exile" file="Warzones/5/Lost Exile.xml"/>
+  	<monster name="Makeshift Home" file="Warzones/5/Makeshift Home.xml"/>
+  	<monster name="Captured Dwarf" file="Warzones/5/Captured Dwarf.xml"/>
+  	<monster name="Ember Beast" file="Warzones/5/Ember Beast.xml"/>
+  	<monster name="Snail Slime" file="Warzones/5/Snail Slime.xml"/>
+  	<!--Warzones 6-->
+  	<monster name="Deepworm" file="Warzones/6/Deepworm.xml"/>
+  	<monster name="Diremaw" file="Warzones/6/Diremaw.xml"/>
+  	<monster name="The Duke Of The Depths" file="Warzones/6/The Duke Of The Depths.xml"/>
+  	<monster name="The Duke Of The Depths Immortal" file="Warzones/6/The Duke Of The Depths Immortal.xml"/>
+  	<monster name="Aggressive Lava" file="Warzones/6/Aggressive Lava.xml"/>
+  	<monster name="Fiery Heart" file="Warzones/6/Fiery Heart.xml"/>
+  	<monster name="Fiery Blood" file="Warzones/6/Fiery Blood.xml"/>

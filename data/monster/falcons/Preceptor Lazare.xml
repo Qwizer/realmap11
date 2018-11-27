@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Preceptor Lazare" nameDescription="a preceptor lazare" race="blood" experience="9200" speed="1000" manacost="0">
+	<health now="15000" max="15000" />
+	<look type="1078" corpse="20559" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="80" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-2500" />
+		<attack name="manadrain" interval="2000" chance="10" range="7" min="0" max="-500" />
+		<attack name="firefield" interval="2000" chance="10" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="fire" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="10" length="8" spread="0" min="-50" max="-550">
+			<attribute key="areaEffect" value="purpleenergy" />
+		</attack>
+		<attack name="energy strike" interval="2000" chance="10" range="1" min="-10" max="-100">
+		</attack>
+		<attack name="speed" interval="2000" chance="15" radius="1" target="1" speedchange="-100" duration="30000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+	</attacks>
+	<defenses armor="55" defense="55">
+		<defense name="healing" interval="2000" chance="15" min="50" max="100">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="speed" interval="2000" chance="15" speedchange="320" duration="5000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element icePercent="20" />
+		<element firePercent="20" />
+		<element energyPercent="-10" />
+		<element earthPercent="-15" />
+	</elements>
+	<immunities>
+		<immunity death="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="2000" chance="7">
+		<voice sentence="Ah, the sweet music of a beating heart!" />
+		<voice sentence="Death and Darkness"/>
+		<voice sentence="Embrace the night!" />
+		<voice sentence="May night fall upon you!" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="242" chance="97000" />	            <!-- gold coin -->		
+		<item id="2152" countmax="6" chance="18200" />				    <!-- fish -->			
+		<item id="2145" countmax="3" chance="800" />					<!-- Small Diamond -->		
+		<item id="2149" countmax="3" chance="900" />					<!-- Small Emeralds -->		
+		<item id="2147" countmax="3" chance="650" />					<!-- Small Rubbie -->
+		<item id="2146" countmax="3" chance="580" />					<!-- Small Sapphire -->		
+		<item id="32416" chance="580" />					<!-- falcon rod -->		
+		<item id="32420" chance="700" />					                <!-- falcon greaves -->	
+		<item id="2454" chance="500" />					<!-- war axe -->
+		<item id="14333" chance="500" />					<!-- demonbone amulet -->
+        <item id="2476" chance="600" />					<!-- knight armor-->
+		<item id="32518" chance="400" />					<!--  patch of fine cloth -->
+		<item id="7413" chance="700" />					<!--  titan axe -->		
+		<item id="2514" chance="3000" />					<!-- mastermind shield -->		
+		<item id="2452" chance="500" />					<!-- heavy mace -->
+	
+
+	</loot>
+</monster>

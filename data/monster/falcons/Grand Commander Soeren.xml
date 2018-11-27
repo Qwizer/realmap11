@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Grand Commander Soeren" nameDescription="a grand commander soeren" race="blood" experience="10000" speed="1000" manacost="0">
+	<health now="17000" max="17000" />
+	<look type="1072" head="95" body="96" legs="95" feet="124" addons="2" corpse="8721" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="80" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-2500" />
+		<attack name="manadrain" interval="2000" chance="10" range="7" min="0" max="-500" />
+		<attack name="firefield" interval="2000" chance="10" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="fire" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="10" length="8" spread="0" min="-50" max="-550">
+			<attribute key="areaEffect" value="purpleenergy" />
+		</attack>
+		<attack name="energy strike" interval="2000" chance="10" range="1" min="-10" max="-100">
+		</attack>
+		<attack name="speed" interval="2000" chance="15" radius="1" target="1" speedchange="-100" duration="30000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+	</attacks>
+	<defenses armor="55" defense="55">
+		<defense name="healing" interval="2000" chance="15" min="50" max="100">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="speed" interval="2000" chance="15" speedchange="320" duration="5000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element icePercent="20" />
+		<element firePercent="20" />
+		<element energyPercent="-10" />
+		<element earthPercent="-15" />
+	</elements>
+	<immunities>
+		<immunity death="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="2000" chance="7">
+		<voice sentence="Ah, the sweet music of a beating heart!" />
+		<voice sentence="Death and Darkness"/>
+		<voice sentence="Embrace the night!" />
+		<voice sentence="May night fall upon you!" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="242" chance="97000" />	            <!-- gold coin -->		
+		<item id="2152" countmax="6" chance="18200" />				    <!-- fish -->			
+		<item id="2145" countmax="3" chance="800" />					<!-- Small Diamond -->		
+		<item id="2149" countmax="3" chance="900" />					<!-- Small Emeralds -->		
+		<item id="2147" countmax="3" chance="650" />					<!-- Small Rubbie -->
+		<item id="2146" countmax="3" chance="580" />					<!-- Small Sapphire -->		
+		<item id="9970" countmax="3" chance="580" />					<!-- Small Topaz -->		
+		<item id="7591" chance="700" />					                <!-- Great Health Potion -->	
+		<item id="32519" chance="500" />				<!-- damaged armor plates -->	
+		<item id="32418" chance="400" />					<!--  falcon bow -->		
+		<item id="32520" chance="500" />					<!-- falcon crest -->
+		<item id="2466" chance="500" />					<!-- golden armor -->	
+		<item id="32518" chance="400" />					<!--  patch of fine cloth -->
+	
+
+	</loot>
+</monster>
