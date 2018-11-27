@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<npc name="Gnome Outer Guard" script="Gnome Outer Guard.lua" walkinterval="2000" floorchange="0">
+  <health now="100" max="100" />
+  <look type="493" head="77" body="61" legs="39" feet="38" addons="0" />
+  <voices>
+    <voice text="A gem is not a rock! Don't just play with it." interval2="120" margin="1" yell="no" />
+  </voices>
+</npc>
