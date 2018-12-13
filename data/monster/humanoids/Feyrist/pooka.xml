@@ -35,7 +35,7 @@
 		<voice sentence="Jinx!" />
 	</voices>
 	<loot>
-		<item name="carrot on stick" chance="20" />
+		<item name="carrot on a stick" chance="20" />
 		<item name="dream blossom staff" chance="20" />
 		<item name="small stone" countmax="5" chance="200" />
 		<item name="gold coin" countmax="100" chance="30000" />

@@ -8,6 +8,7 @@
 	<monster name="Kalyassa" file="places/FirstDragon/Kalyassa.xml" />
 	<monster name="Zorvorax" file="places/FirstDragon/Zorvorax.xml" />
 	<monster name="Gelidrazah" file="places/FirstDragon/Gelidrazah.xml" />
+	<monster name="Gelidrazah the Frozen" file="places/FirstDragon/Gelidrazah the Frozen.xml" />
 	
 	<!-- Cults of Tibia bosses -->
 	<monster name="Ancient Spawn of Morgathla" file="places/Cults of tibia/Bosses/Ancient Spawn of Morgathla.xml" />
@@ -82,7 +83,8 @@
 	<monster name="Twisted Pooka" file="humanoids/Feyrist/twisted_pooka.xml" />	   
 	<monster name="Nymph" file="humanoids/Feyrist/nymph.xml" />	   
 	<monster name="Boogy" file="humanoids/Feyrist/boogy.xml" />	   
-	<monster name="Swan Maiden" file="humanoids/Feyrist/swan_maiden.xml" />	   
+	<monster name="Swan Maiden" file="humanoids/Feyrist/swan_maiden.xml" />	  
+	<monster name="Kroazur" file="humanoids/Feyrist/bosses/Kroazur.xml" />	
 	
 	<!-- Otherworld Hallsofhope bosses -->
 	<monster name="Lady Tenebris" file="places/Hallsofhope/bosses/Lady Tenebris.xml" />
@@ -643,6 +645,8 @@
 	<monster name="Marid" file="humanoids/djinn/marid.xml" />
 
 	<!-- Dragons -->
+	<monster name="Dragon Servant" file="reptiles/dragons/dragon servant.xml" />
+	<monster name="Dragon Wrath" file="reptiles/dragons/dragon wrath.xml" />
 	<monster name="Dragon Lord" file="reptiles/dragons/dragon_lord.xml" />
 	<monster name="Dragon Lord Hatchling" file="reptiles/dragons/dragon_lord_hatchling.xml" />
 	<monster name="Dragon" file="reptiles/dragons/dragon.xml" />
@@ -1166,6 +1170,7 @@
     <monster name="Grand Commander Soeren" file="falcons/Grand Commander Soeren.xml" />
 	<monster name="Grand Chaplain Gaunder" file="falcons/Grand Chaplain Gaunder.xml" />
 	<monster name="Preceptor Lazare" file="falcons/Preceptor Lazare.xml" />
+	<monster name="Grand Canon Dominus" file="falcons/Grand Canon Dominus.xml" />
 	
 	<!-- New Asuras -->
     <monster name="Frost Flower Asura" file="asuras/Frost Flower Asura.xml" />
